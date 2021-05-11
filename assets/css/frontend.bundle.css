@@ -5324,6 +5324,167 @@ html {
   margin-bottom: 50px;
 }
 
+.category-section.inner-section .heading-holder {
+  border-color: #939598;
+  margin-bottom: 14px;
+}
+.category-section .heading-holder {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.category-section .heading-holder .breadcrumbs {
+  width: 100%;
+  margin: 15px 0;
+}
+.category-section .product-title {
+  margin-bottom: 43px;
+}
+.category-section .product-title h1 {
+  font-size: 40px;
+}
+.category-section .product-title .product-logo {
+  margin-right: 15px;
+  max-width: 65px;
+}
+.category-section .product-title .title-desc {
+  max-width: 530px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+}
+.category-section .products-wrap {
+  margin-bottom: 180px;
+}
+.category-section .prod {
+  color: #464c2d;
+  text-decoration: none;
+  flex-wrap: wrap;
+  position: relative;
+  margin-bottom: 89px;
+}
+.category-section .prod:after {
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  position: absolute;
+  top: 82px;
+  width: 100%;
+  min-height: 234px;
+  z-index: -1;
+}
+.category-section .prod:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+.category-section .prod .prod-desc {
+  width: 100%;
+  text-align: center;
+  font-family: "brygada_1918bold";
+  font-size: 16px;
+}
+.category-section .category-filters {
+  border-bottom: 1px solid #939598;
+  margin-bottom: 80px;
+  padding-bottom: 14px;
+}
+.category-section .filters-nav {
+  width: 50%;
+  list-style: none;
+}
+.category-section .filters-nav a {
+  text-decoration: none;
+  color: #464c2d;
+  transition: all 0.3s ease;
+  position: relative;
+  display: block;
+  padding-bottom: 5px;
+}
+.category-section .filters-nav a:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  background: #b39254;
+  height: 3px;
+  transition: all 0.3s;
+}
+.category-section .filters-nav a:hover, .category-section .filters-nav a.active {
+  color: #b39254;
+}
+.category-section .filters-nav a:hover:after, .category-section .filters-nav a.active:after {
+  width: 100%;
+}
+.category-section .filters-nav li {
+  margin-right: 59px;
+}
+.category-section .filters-nav li:last-child {
+  margin-right: 0;
+}
+.category-section .filters {
+  width: 50%;
+}
+.category-section .category-form {
+  width: 100%;
+  justify-content: flex-end;
+}
+.category-section .category-form .custom-select {
+  width: 100%;
+  max-width: 92px;
+}
+
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 18px;
+  right: 10px;
+  width: 8px;
+  height: 4px;
+  background: url(../img/53a5ba328599e56de1bc32fa3a1f18aa.png) no-repeat;
+}
+
+.select-selected.select-arrow-active:after {
+  transform: rotate(-180deg);
+}
+
+.select-items div, .select-selected {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 1500px) {
   .card-info-holder {
     background-position: center;
@@ -5603,7 +5764,7 @@ html {
   background: #a01d21;
 }
 
-.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs {
+.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .category-section .filters-content, .category-section .filters-nav, .category-section .category-form {
   display: flex;
 }
 
@@ -5611,15 +5772,15 @@ html {
   justify-content: flex-end;
 }
 
-.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .brand-holder .brand-ese-logo, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder {
+.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .brand-holder .brand-ese-logo, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod {
   justify-content: center;
 }
 
-.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .footer-content .bottom-container-inner, .footer-content .footer-row {
+.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .product-title h1, .category-section .category-form {
   align-items: center;
 }
 
-.space-between, .header-container, .navigation-holder .nav-address-wrap, .tabs .tab-text, .footer-content .bottom-container-inner, .footer-content .footer-row {
+.space-between, .header-container, .navigation-holder .nav-address-wrap, .tabs .tab-text, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .filters-content {
   justify-content: space-between;
 }
 
