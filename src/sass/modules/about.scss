@@ -131,46 +131,274 @@
 }
 
 .about-section {
+  position: relative;
+ &.inner-section {
+   padding-top: 0;
+ }
+
+  .about-text-content {
+    max-width: 810px;
+    margin: 60px auto 0;
+    padding: 0 20px;
+    font-size: 16px;
+    position: relative;
+    z-index: 2;
+    p {
+      line-height: 1.8em;
+      color: #666666;
+    }
+  }
+
+  .about-bg {
+    background: url('../img/about-bg.png') no-repeat right top;
+    padding-top: 92px;
+    min-height: 2654px;
+}
   .about-section-title {
+    margin-top: 57px;
+    margin-bottom: 60px;
     color: #5d6267;
     font-family: $bold;
     font-size: 43px;
     display: block;
     text-align: center;
     line-height: .9em;
-    span {
-      font-size: 18px;
-      font-family: $regular;
-      display: block;
+  span {
+    font-size: 18px;
+    font-family: $regular;
+    display: block;
+  }
+}
+
+.card-heading {
+line-height: inherit;
+}
+
+  .card-year-holder {
+    background: url('../img/number-bg.jpg') no-repeat -116px -289px;;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 20px;
+    .card-year {
+    color: transparent;
+    display: inline-block;
+  }
+
+  .card-year-2 {
+    margin-top: -101px;
+    margin-left: -20px;
+  }
+
+  .card-year-desc {
+    right: 91px;
+    top: 138px;
+  }
+  }
+  .about-leaf {
+    position: absolute;
+  }
+  .about-left-leaf {
+    background: url('../img/about-left-leaf.png') no-repeat;
+    width: 797px;
+    height: 1022px;
+    display: block;
+    top: 287px;
+    left: 0;
+  }
+  .about-right-leaf {
+    background: url('../img/about-right-leaf.png') no-repeat;
+    width: 742px;
+    height: 976px;
+    display: block;
+    top: 274px;
+    right: 0;
+  }
+}
+
+.brand-holder {
+  position: relative;
+  margin-top: 579px;
+
+  .brand-text-holder {
+    position: relative;
+    z-index: 2;
+    max-width: 870px;
+    margin: auto;
+
+    p {
+      text-align: center;
+      color: #666666;
     }
   }
 
-  .card-year-holder {
+  .brand-ese-logo {
+    @extend .flex-container;
+    @extend .center-content;
+    margin-bottom: 48px;
+  }
 
-
-    .card-year-2 {
-
+  .about-brand-title {
+    font-family: $bold;
+    color: #666666;
+    font-size: 74px;
+    text-align: center;
+    line-height: .8em;
+    font-weight: normal;
+    margin-bottom: 75px;
+    .title-inner {
+      display: block;
+      font-family: $regular;
+      font-size: 34px;
     }
+  }
 
-    .card-year {
+  .brands {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 88px;
+    li {
+      margin-right: 42px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 
-      .first-number, .last-number  {
-        background: url('../img/number-bg.jpg') no-repeat;
-        color: transparent;
-        -webkit-background-clip: text;
-        background-clip: text;
-        display: initial;
+  .brand-hand-oil {
+    background: url('../img/about-hand-oil.png') no-repeat;
+    height: 1307px;
+    width: 620px;
+    position: absolute;
+    top: -364px;
+    left: 0;
+    display: block;
+  }
+}
+
+.brand-bg {
+  background: url('../img/ece-bg.png') no-repeat center top;
+  min-height: 1200px;
+  margin-top: -233px;
+  padding-top: 233px;
+}
+
+.history-holder {
+  background: url('../img/tab-section.png') no-repeat;
+  min-height: 1294px;
+}
+
+.history-text-content {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 204px;
+
+  .history-title {
+    position: relative;
+    h3 {
+      font-family: $bold;
+      font-size: 88px;
+      color: #fff;
+      text-align: center;
+    }
+  }
+
+  .history-wood {
+    background: url('../img/history-wood.png') no-repeat;
+    width: 579px;
+    height: 477px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 53px;
+  }
+}
+
+.tab-content {
+  background: #fff;
+  padding: 53px 81px;
+  position: relative;
+  z-index: 2;
+  min-height: 885px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 18px 50px -10px;
+  margin: 100px 0 193px;
+
+  .tab-nav {
+    list-style: none;
+    @extend .flex-container;
+    border-bottom: 1px solid #666766;
+    margin-bottom: 52px;
+    li {
+      margin-right: 38px;
+
+      &:last-child {
+        margin-right: 0;
       }
 
-      &.card-year-1 {
-          .first-number {
-            background-position: -6px -271px;
-          }
+      a {
+        color: #333333;
+        text-decoration: none;
+        transition: all .3s;
+        position: relative;
+        height: 100%;
+        display: block;
+        padding-bottom: 12px;
+        &:after {
+          content: "";
+          display: block;
+          height: 4px;
+          width: 0;
+          background: #bc9c61;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          transition: all .3s;
+        }
 
-          .last-number {
-            background-position: -213px -296px;
+        &:hover, &.active {
+          color: #bc9c61;
+
+          &:after {
+            width: 100%;
           }
         }
       }
+    }
   }
 }
+
+.tabs {
+  color: #333333;
+  .tab {
+    display: none;
+  }
+  .active-tab {
+    display: block;
+  }
+  h4 {
+    font-weight: normal;
+    font-family: $regular;
+    font-size: 34px;
+    margin-bottom: 46px;
+  }
+
+  .tab-text {
+    max-height: 517px;
+    overflow-y: auto;
+    padding-right: 30px;
+    @extend .flex-container;
+    @extend .space-between;
+    flex-wrap: wrap;
+    p {
+      width: 47%;
+      font-size: 14px;
+      line-height: 1.5em;
+    }
+  }
+}
+
+
+

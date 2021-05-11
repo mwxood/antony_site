@@ -4863,7 +4863,32 @@ html {
   margin-right: 0;
 }
 
+.about-section {
+  position: relative;
+}
+.about-section.inner-section {
+  padding-top: 0;
+}
+.about-section .about-text-content {
+  max-width: 810px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+}
+.about-section .about-text-content p {
+  line-height: 1.8em;
+  color: #666666;
+}
+.about-section .about-bg {
+  background: url(../img/949abef177f564a80ea6d77ea2b0d394.png) no-repeat right top;
+  padding-top: 92px;
+  min-height: 2654px;
+}
 .about-section .about-section-title {
+  margin-top: 57px;
+  margin-bottom: 60px;
   color: #5d6267;
   font-family: "brygada_1918bold";
   font-size: 43px;
@@ -4876,18 +4901,211 @@ html {
   font-family: "brygada_1918regular";
   display: block;
 }
-.about-section .card-year-holder .card-year .first-number, .about-section .card-year-holder .card-year .last-number {
-  background: url(../img/75a0e592c2c85873d63bdc0a09e467fd.jpg) no-repeat;
+.about-section .card-heading {
+  line-height: inherit;
+}
+.about-section .card-year-holder {
+  background: url(../img/75a0e592c2c85873d63bdc0a09e467fd.jpg) no-repeat -116px -289px;
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  display: initial;
+  margin-top: 20px;
 }
-.about-section .card-year-holder .card-year.card-year-1 .first-number {
-  background-position: -6px -271px;
+.about-section .card-year-holder .card-year {
+  color: transparent;
+  display: inline-block;
 }
-.about-section .card-year-holder .card-year.card-year-1 .last-number {
-  background-position: -213px -296px;
+.about-section .card-year-holder .card-year-2 {
+  margin-top: -101px;
+  margin-left: -20px;
+}
+.about-section .card-year-holder .card-year-desc {
+  right: 91px;
+  top: 138px;
+}
+.about-section .about-leaf {
+  position: absolute;
+}
+.about-section .about-left-leaf {
+  background: url(../img/04ee9207f6f7691db821be9ccffc8d2e.png) no-repeat;
+  width: 797px;
+  height: 1022px;
+  display: block;
+  top: 287px;
+  left: 0;
+}
+.about-section .about-right-leaf {
+  background: url(../img/3315023c7575588b2feb4f2bbf789f74.png) no-repeat;
+  width: 742px;
+  height: 976px;
+  display: block;
+  top: 274px;
+  right: 0;
+}
+
+.brand-holder {
+  position: relative;
+  margin-top: 579px;
+}
+.brand-holder .brand-text-holder {
+  position: relative;
+  z-index: 2;
+  max-width: 870px;
+  margin: auto;
+}
+.brand-holder .brand-text-holder p {
+  text-align: center;
+  color: #666666;
+}
+.brand-holder .brand-ese-logo {
+  margin-bottom: 48px;
+}
+.brand-holder .about-brand-title {
+  font-family: "brygada_1918bold";
+  color: #666666;
+  font-size: 74px;
+  text-align: center;
+  line-height: 0.8em;
+  font-weight: normal;
+  margin-bottom: 75px;
+}
+.brand-holder .about-brand-title .title-inner {
+  display: block;
+  font-family: "brygada_1918regular";
+  font-size: 34px;
+}
+.brand-holder .brands {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 88px;
+}
+.brand-holder .brands li {
+  margin-right: 42px;
+}
+.brand-holder .brands li:last-child {
+  margin-right: 0;
+}
+.brand-holder .brand-hand-oil {
+  background: url(../img/c4ff323ef93eef53b6021579b1243242.png) no-repeat;
+  height: 1307px;
+  width: 620px;
+  position: absolute;
+  top: -364px;
+  left: 0;
+  display: block;
+}
+
+.brand-bg {
+  background: url(../img/cf656ad44a5e2111be8854f616fce457.png) no-repeat center top;
+  min-height: 1200px;
+  margin-top: -233px;
+  padding-top: 233px;
+}
+
+.history-holder {
+  background: url(../img/a9ad8269266ab4f9f3bf2eeedda17c3e.png) no-repeat;
+  min-height: 1294px;
+}
+
+.history-text-content {
+  max-width: 1150px;
+  margin: auto;
+  padding-top: 204px;
+}
+.history-text-content .history-title {
+  position: relative;
+}
+.history-text-content .history-title h3 {
+  font-family: "brygada_1918bold";
+  font-size: 88px;
+  color: #fff;
+  text-align: center;
+}
+.history-text-content .history-wood {
+  background: url(../img/eedce44c71ac5b47216cb75e11422112.png) no-repeat;
+  width: 579px;
+  height: 477px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 53px;
+}
+
+.tab-content {
+  background: #fff;
+  padding: 53px 81px;
+  position: relative;
+  z-index: 2;
+  min-height: 885px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 18px 50px -10px;
+  margin: 100px 0 193px;
+}
+.tab-content .tab-nav {
+  list-style: none;
+  border-bottom: 1px solid #666766;
+  margin-bottom: 52px;
+}
+.tab-content .tab-nav li {
+  margin-right: 38px;
+}
+.tab-content .tab-nav li:last-child {
+  margin-right: 0;
+}
+.tab-content .tab-nav li a {
+  color: #333333;
+  text-decoration: none;
+  transition: all 0.3s;
+  position: relative;
+  height: 100%;
+  display: block;
+  padding-bottom: 12px;
+}
+.tab-content .tab-nav li a:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  background: #bc9c61;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s;
+}
+.tab-content .tab-nav li a:hover, .tab-content .tab-nav li a.active {
+  color: #bc9c61;
+}
+.tab-content .tab-nav li a:hover:after, .tab-content .tab-nav li a.active:after {
+  width: 100%;
+}
+
+.tabs {
+  color: #333333;
+}
+.tabs .tab {
+  display: none;
+}
+.tabs .active-tab {
+  display: block;
+}
+.tabs h4 {
+  font-weight: normal;
+  font-family: "brygada_1918regular";
+  font-size: 34px;
+  margin-bottom: 46px;
+}
+.tabs .tab-text {
+  max-height: 517px;
+  overflow-y: auto;
+  padding-right: 30px;
+  flex-wrap: wrap;
+}
+.tabs .tab-text p {
+  width: 47%;
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
 .product-index-section {
@@ -5385,7 +5603,7 @@ html {
   background: #a01d21;
 }
 
-.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs {
+.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs {
   display: flex;
 }
 
@@ -5393,7 +5611,7 @@ html {
   justify-content: flex-end;
 }
 
-.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder {
+.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .brand-holder .brand-ese-logo, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder {
   justify-content: center;
 }
 
@@ -5401,7 +5619,7 @@ html {
   align-items: center;
 }
 
-.space-between, .header-container, .navigation-holder .nav-address-wrap, .footer-content .bottom-container-inner, .footer-content .footer-row {
+.space-between, .header-container, .navigation-holder .nav-address-wrap, .tabs .tab-text, .footer-content .bottom-container-inner, .footer-content .footer-row {
   justify-content: space-between;
 }
 
