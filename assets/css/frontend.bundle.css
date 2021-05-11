@@ -5437,52 +5437,123 @@ html {
   max-width: 92px;
 }
 
-.custom-select {
-  position: relative;
+.contact-section.inner-section {
+  padding-top: 75px;
+}
+.contact-section.inner-section .heading-holder {
+  border: none;
+  margin-bottom: 0;
+}
+.contact-section .map iframe {
+  width: 100%;
+  filter: gray;
+  -webkit-filter: grayscale(99%);
+  /* Chrome 19+ & Safari 6+ */
+  -webkit-backface-visibility: hidden;
+  /* Fix for transition flickering */
+  height: 615px;
+}
+.contact-section .custom-container {
+  max-width: 1371px;
+}
+.contact-section .border-content {
+  border: 1px solid #b7b7b7;
+  border-top: none;
+  padding-top: 20px;
+}
+.contact-section .address-header {
+  border-bottom: 1px solid #b7b7b7;
+}
+.contact-section .contact-info .address-col {
+  width: 50%;
+  border-right: 1px solid #b7b7b7;
+  padding: 30px 0 30px 65px;
+  color: #666666;
+}
+.contact-section .contact-info .address-col .address-col-title {
+  font-family: "brygada_1918bold";
+}
+.contact-section .contact-info .address-col .address, .contact-section .contact-info .address-col .fax {
+  margin-bottom: 35px;
+}
+.contact-section .contact-info .address-col a {
+  color: #666666;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.contact-section .contact-info .address-col a:hover {
+  color: #bc9c61;
+}
+.contact-section .contact-info .address-col span, .contact-section .contact-info .address-col a {
+  display: block;
+}
+.contact-section .contact-info .address-col:last-child {
+  border: none;
+}
+.contact-section .address-title {
+  width: 50%;
+  font-size: 24px;
+  font-family: "brygada_1918bold";
+  color: #717d47;
+  padding: 18px 0 28px 65px;
+}
+.contact-section .address-title.active-address {
+  color: #bc9c61;
+}
+.contact-section .address-title.active-address .address-pin {
+  background-position: 0 -23px;
+}
+.contact-section .address-title .address-pin {
+  background: url(../img/d30888ed5f79ba654551a8444cafa197.png) no-repeat;
+  width: 12px;
+  height: 20px;
+  margin-right: 10px;
+}
+.contact-section .contact-form {
+  margin-top: 25px;
+}
+.contact-section .contact-form .contact-title {
+  display: block;
+  text-align: center;
+  font-size: 26px;
+  color: #464c2d;
+  margin-bottom: 21px;
+}
+.contact-section .contact-form .buttons-holder {
+  justify-content: flex-end;
+}
+.contact-section .contact-form .send-btn {
+  background: #bc9c61;
+  color: #ffff;
+  font-size: 21px;
+  border: none;
+  max-width: 290px;
+  text-align: center;
+  padding: 22px 0;
+  width: 100%;
+  margin-top: 23px;
 }
 
-.custom-select select {
-  display: none;
+.form-group {
+  flex-wrap: wrap;
+}
+.form-group label {
+  width: 100%;
+}
+.form-group .half-width {
+  width: 50%;
 }
 
-.select-selected:after {
-  position: absolute;
-  content: "";
-  top: 18px;
-  right: 10px;
-  width: 8px;
-  height: 4px;
-  background: url(../img/53a5ba328599e56de1bc32fa3a1f18aa.png) no-repeat;
+.input-bg {
+  border: 1px solid #b7b7b7;
+  padding: 37px 58px;
+  width: 100%;
+  color: #464c2d;
+  font-size: 14px;
 }
-
-.select-selected.select-arrow-active:after {
-  transform: rotate(-180deg);
-}
-
-.select-items div, .select-selected {
-  padding: 8px 16px;
-  cursor: pointer;
-}
-
-/* Style items (options): */
-.select-items {
-  position: absolute;
-  background: #fff;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-  left: 0;
-  right: 0;
-  z-index: 99;
-  overflow-y: auto;
-  max-height: 200px;
-}
-
-/* Hide the items when the select box is closed: */
-.select-hide {
-  display: none;
-}
-
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
+.input-bg::placeholder {
+  color: #464c2d;
+  font-size: 14px;
 }
 
 @media (max-width: 1500px) {
@@ -5764,7 +5835,7 @@ html {
   background: #a01d21;
 }
 
-.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .category-section .filters-content, .category-section .filters-nav, .category-section .category-form {
+.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .nav-active .navigation-holder, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .category-section .filters-content, .category-section .filters-nav, .category-section .category-form, .contact-section .address-header, .contact-section .contact-info, .contact-section .address-title, .contact-section .contact-form .buttons-holder, .form-group {
   display: flex;
 }
 
@@ -5776,7 +5847,7 @@ html {
   justify-content: center;
 }
 
-.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .product-title h1, .category-section .category-form {
+.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .product-title h1, .category-section .category-form, .contact-section .address-title {
   align-items: center;
 }
 
@@ -5805,7 +5876,7 @@ img {
 }
 
 body {
-  background: #fafafa;
+  background: #fff;
   color: #464c2d;
   font-family: "brygada_1918regular";
 }

@@ -17,7 +17,7 @@
 @import 'modules/content';
 @import 'modules/news';
 @import 'modules/category';
-@import 'modules/custom-select';
+@import 'modules/contact';
 @import 'modules/card-responsive';
 @import 'modules/about-responsive';
 @import 'modules/slider-responsive';
@@ -39,7 +39,7 @@ img {max-width: 100%;}
 }
 
 body {
-  background: $bg-color;
+  background: #fff;
   color: $text-color;
   font-family: $regular;
 }

@@ -5,7 +5,7 @@
             <div class="heading-holder">
                 <ul class="breadcrumbs">
                     <li><a href="/">Начало</a></li>
-                    <li>Новини</li>
+                    <li>Продукти</li>
                 </ul>
                 <div class="product-title">
                     <h1>

@@ -1,0 +1,146 @@
+.contact-section {
+  &.inner-section {
+    padding-top: 75px;
+    .heading-holder {
+      border: none;
+      margin-bottom: 0;
+    }
+  }
+
+  .map {
+    iframe {
+      width: 100%;
+      filter: gray;
+      -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+      -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
+      height: 615px;
+    }
+  }
+
+  .custom-container {
+    max-width: 1371px;
+  }
+
+  .border-content {
+    border: 1px solid #b7b7b7;
+    border-top: none;
+    padding-top: 20px;
+  }
+
+  .address-header {
+    border-bottom: 1px solid #b7b7b7;
+    @extend .flex-container;
+  }
+
+  .contact-info {
+
+    @extend .flex-container;
+    .address-col {
+      width: 50%;
+      border-right: 1px solid #b7b7b7;
+      padding: 30px 0 30px 65px;
+      color: #666666;
+      .address-col-title {
+        font-family: $bold;
+      }
+      .address, .fax {
+        margin-bottom: 35px;
+      }
+      a {
+        color: #666666;
+        text-decoration: none;
+        transition: all .3s;
+        &:hover {
+          color: #bc9c61;
+        }
+      }
+      span, a {
+        display: block;
+      }
+      &:last-child {
+        border: none;
+      }
+    }
+  }
+
+  .address-header {
+    @extend .flex-container;
+  }
+
+  .address-title {
+    @extend .flex-container;
+    width: 50%;
+    @extend .vertical-center;
+    font-size: 24px;
+    font-family: $bold;
+    color: #717d47;
+    padding: 18px 0 28px 65px;
+
+    &.active-address {
+    color: #bc9c61;
+      .address-pin {
+        background-position: 0 -23px;
+      }
+  }
+
+    .address-pin {
+      background: url('../img/map-pin.png') no-repeat;
+      width: 12px;
+      height: 20px;
+      margin-right: 10px;
+    }
+  }
+
+  .contact-form {
+    margin-top: 25px;
+    .contact-title {
+      display: block;
+      text-align: center;
+      font-size: 26px;
+      color: #464c2d;
+      margin-bottom: 21px;
+    }
+
+    .buttons-holder {
+      @extend .flex-container;
+      justify-content: flex-end;
+    }
+
+    .send-btn {
+      background: #bc9c61;
+      color: #ffff;
+      font-size: 21px;
+      border: none;
+      max-width: 290px;
+      text-align: center;
+      padding: 22px 0;
+      width: 100%;
+      margin-top: 23px;
+    }
+  }
+}
+
+.form-group {
+  @extend .flex-container;
+  flex-wrap: wrap;
+
+  label {
+    width: 100%;
+  }
+
+  .half-width {
+    width: 50%;
+  }
+}
+
+.input-bg {
+  border: 1px solid #b7b7b7;
+  padding: 37px 58px;
+  width: 100%;
+  color: #464c2d;
+  font-size: 14px;
+  &::placeholder {
+    color: #464c2d;
+    font-size: 14px;
+  }
+}
