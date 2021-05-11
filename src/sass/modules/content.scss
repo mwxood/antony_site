@@ -1,0 +1,41 @@
+.inner-section {
+  padding-top: 92px;
+
+  .heading-holder {
+    border-bottom: 1px solid #bc9c61;
+    @extend .flex-container;
+    @extend .center-content;
+    flex-wrap: wrap;
+    margin-bottom: 59px;
+    h1 {
+      font-size: 40px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+
+  .breadcrumbs {
+    list-style: none;
+    @extend .flex-container;
+    li {
+      color: #464c2d;
+      font-size: 12px;
+      a {
+        color: #464c2d;
+        text-decoration: none;
+      }
+      &:after {
+        content: "/";
+        display: inline-block;
+        padding: 0 5px;
+      }
+
+      &:last-child {
+        &:after {
+          display: none;
+        }
+      }
+    }
+  }
+}

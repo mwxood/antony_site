@@ -1,0 +1,176 @@
+.about-index-section {
+  padding-top: 200px;
+  background: url('../img/content-bg.png') no-repeat center 55px;
+  margin: 0 auto 63px;
+  min-height: 1052px;
+  position: relative;
+  .about-index-inner {
+    position: relative;
+    border-top: 2px solid #464b2c;
+    border-bottom: 2px solid #464b2c;
+  }
+
+  .about-leaf, .oil-hand, .about-small-leaf, .about-oil {
+    position: absolute;
+  }
+
+  .about-oil {
+    background: url('../img/oil.png') no-repeat;
+    width: 325px;
+    height: 465px;
+    bottom: -156px;
+    left: 0;
+  }
+
+  .about-small-leaf {
+    background: url('../img/small-leaf.png') no-repeat;
+    height: 301px;
+    width: 192px;
+    top: 453px;
+    right: 457px;
+    z-index: 3;
+  }
+
+  .about-leaf {
+    background: url('../img/leaf-big.png') no-repeat;
+    left: 0;
+    top: 84px;
+    width: 300px;
+    height: 392px;
+  }
+
+  .oil-hand {
+    background: url('../img/hand-oil.png') no-repeat;
+    width: 571px;
+    height: 1316px;
+    top: -116px;
+    right: 0;
+  }
+
+  .about-button {
+    border: 1px solid #939598;
+    border-bottom: none;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    display: block;
+    max-width: 429px;
+    width: 100%;
+    @extend .flex-container;
+    @extend .center-content;
+    @extend .vertical-center;
+    padding: 53px 0;
+    text-decoration: none;
+    font-family: $bold;
+    font-size: 16px;
+    color: #464c2d;
+    transition: all .3s;
+    .arrow {
+      display: inline-block;
+      margin-left: 20px;
+      background: url('../img/content-arrow.png') no-repeat 0 2px;
+      width: 12px;
+      height: 12px;
+      transition: all .3s;
+    }
+
+    &:hover {
+      background: #bb9d69;
+      color: #fff;
+     .arrow {
+       background-position: 0 -13px;
+     }
+    }
+  }
+
+
+  .about-inner {
+    position: relative;
+    padding: 49px 0 180px;
+    max-width: 1260px;
+    margin-left: 130px;
+    border-left: 2px solid #464b2c;
+    border-right: 2px solid #464b2c;
+    h2 {
+      padding: 0 0 47px 135px;
+      border-bottom: 2px solid #464b2c;
+      color: #464c2d;
+      font-size: 101px;
+      line-height: .8em;
+      position: relative;
+      z-index: 2;
+    }
+
+    .big-heading {
+      font-family: $bold;
+      display: block;
+      text-transform: uppercase;
+    }
+
+    .small-heading {
+      font-family: $regular;
+      font-weight: normal;
+    }
+  }
+
+  .about-cols {
+    @extend .flex-container;
+    padding: 58px 145px 0;
+    color: #464c2d;
+    position: relative;
+    z-index: 2;
+    p {
+      max-width: 474px;
+      margin-right: 69px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.about-section {
+  .about-section-title {
+    color: #5d6267;
+    font-family: $bold;
+    font-size: 43px;
+    display: block;
+    text-align: center;
+    line-height: .9em;
+    span {
+      font-size: 18px;
+      font-family: $regular;
+      display: block;
+    }
+  }
+
+  .card-year-holder {
+
+
+    .card-year-2 {
+
+    }
+
+    .card-year {
+
+      .first-number, .last-number  {
+        background: url('../img/number-bg.jpg') no-repeat;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-clip: text;
+        display: initial;
+      }
+
+      &.card-year-1 {
+          .first-number {
+            background-position: -6px -271px;
+          }
+
+          .last-number {
+            background-position: -213px -296px;
+          }
+        }
+      }
+  }
+}

@@ -1,0 +1,39 @@
+.slider-holder {
+  max-width: 1920px;
+  margin: auto;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+
+  .slider-more-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    color: $white-bg;
+    font-family: $bold;
+    font-size: 16px;
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 218px;
+    &:hover {
+      text-decoration: underline;
+    }
+    img {
+      margin-left: 22px;
+    }
+  }
+
+  .slider-wrapper {
+    overflow: hidden;
+  }
+
+  .splide__list {
+    display: flex;
+  }
+
+  .splide__arrows {display: none;}
+
+}
+
+

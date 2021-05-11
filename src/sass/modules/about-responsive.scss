@@ -1,0 +1,107 @@
+@media (max-width: 1692px) {
+  .about-index-section  {
+    .oil-hand {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .about-index-section {
+    .about-small-leaf {
+      display: none;
+    }
+  }
+  .card-holder {
+    .button-holder {
+      right: -80px;
+      bottom: 205px;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .card-holder {
+    margin-top: 0;
+    .card-info-holder {
+      background: #ccc;
+      max-height: inherit;
+      min-height: 725px;
+      padding-top: 0;
+    }
+  .button-holder {
+    bottom: 0;
+    right: 0;
+    padding: 0;
+  }
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-index-section {
+    .about-cols {
+      padding: 20px;
+    }
+    .about-leaf, .about-oil {
+      display: none;
+    }
+    .about-inner {
+      margin-left: 0;
+      .big-heading {
+
+      }
+      h2 {
+        font-size: 60px;
+        padding: 0 20px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .card-year {
+    font-size: 140px;
+  }
+  .card-year-desc {
+    right: -70px;
+    top: 44px;
+  }
+}
+
+
+@media (max-width: 880px) {
+  .about-index-section {
+    .about-button {
+      max-width: inherit;
+      width: auto;
+      display: table !important;
+      margin: 20px auto;
+      position: static;
+      border-bottom: 1px solid #939598;
+      padding: 23px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .about-index-section {
+    padding-top: 0;
+    margin: auto;
+    min-height: inherit;
+    .about-index-inner, .about-inner {
+      h2 {
+        border: none;
+      }
+      border: none;
+    }
+
+    .about-cols {
+      display: block !important;
+      p {
+        max-width: inherit;
+        margin-right: 0;
+
+      }
+    }
+  }
+}

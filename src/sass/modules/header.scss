@@ -1,0 +1,108 @@
+.header {
+    background: rgba(183, 149, 85, .93);
+    height: 75px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-container {
+    @extend .flex-container;
+    @extend .space-between;
+    color: $white-bg;
+}
+
+
+.ece-logo {
+    display: flex;
+    align-items: center;
+    height: 75px;
+}
+
+.ece-logo-text {
+    font-family: $bold;
+    padding: 0 5px 0 15px;
+    max-width: 177px;
+    font-size: 12px;
+}
+
+.header-left {
+    @extend .flex-container;
+}
+
+.header-left, .header-center, .header-right {
+    width: 33.33333333333333%;
+}
+
+.header-center {
+    @extend .flex-container;
+    @extend .center-content;
+
+    .logo {
+        display: inline-block;
+        border-bottom: 7px solid #7c6539;
+        padding-top: 17px;
+    }
+}
+
+.header-right {
+    @extend .flex-container;
+    justify-content: flex-end;
+}
+
+.top-navigation {
+    border-right: 1px solid #695124;
+    @extend .flex-container;
+    @extend .vertical-center;
+    padding: 0 30px;
+    margin-right: 33px;
+}
+
+.lang-holder {
+    border-left: 1px solid #695124;
+    @extend .flex-container;
+    @extend .vertical-center;
+
+    position: relative;
+}
+
+.languages {
+    list-style: none;
+
+    li {
+        cursor: pointer;
+        padding: 0 34px;
+        height: 74px;
+        display: flex;
+        flex-wrap: wrap;
+        @extend .vertical-center;
+        &:hover {
+            ul {
+                display: block;
+            }
+        }
+    }
+    ul {
+        background: rgba(183, 149, 85, .93);
+        position: absolute;
+        list-style: none;
+        display: none;
+        top: 100%;
+        left: 0;
+        width: 100px;
+        padding: 10px;
+        height: auto;
+        li {
+            display: block;
+            padding: 10px 24px;
+            height: auto;
+        }
+    }
+    a, span {
+        font-size: 16px;
+        color: $white-bg;
+        text-decoration: none;
+    }
+}

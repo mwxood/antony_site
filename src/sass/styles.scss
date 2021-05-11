@@ -1,0 +1,66 @@
+// Bootstrap imports
+@import "bootstrap/scss/bootstrap-grid";
+
+
+// Custom imports
+@import 'fonts';
+@import 'variables';
+@import 'modules/header';
+@import 'modules/navigation';
+@import 'modules/slider';
+@import 'modules/scroll';
+@import 'modules/card';
+@import 'modules/about';
+@import 'modules/product';
+@import 'modules/company-info';
+@import 'modules/footer';
+@import 'modules/content';
+@import 'modules/news';
+@import 'modules/card-responsive';
+@import 'modules/about-responsive';
+@import 'modules/slider-responsive';
+@import 'modules/footer-responsive';
+@import 'modules/navigation-responsive';
+
+@import 'helper';
+
+// Responsive
+@import "modules/header-responsive";
+
+
+img {max-width: 100%;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $bg-color;
+  color: $text-color;
+  font-family: $regular;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+p + p {
+  margin-top: 10px;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+.content {
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}

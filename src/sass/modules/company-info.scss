@@ -1,0 +1,31 @@
+.company-info-container {
+  .company-logo {
+    margin-bottom: 63px;
+    @extend .flex-container;
+    @extend .center-content;
+    flex-wrap: wrap;
+    img {
+      margin-bottom: 18px;
+    }
+
+    .company-logo-slogan {
+      text-align: center;
+      display: block;
+      font-family: $bold;
+      width: 100%;
+      font-size: 12px;
+      color: #b99655;
+    }
+  }
+
+  .company-text {
+    font-family: $bold;
+    max-width: 718px;
+    margin: auto;
+    text-align: center;
+    p {
+      line-height: 2em;
+      color: #66512a;
+    }
+  }
+}

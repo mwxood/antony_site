@@ -1,0 +1,119 @@
+.card-holder {
+  position: relative;
+  margin-top: -196px;
+  margin-bottom: 115px;
+
+  .button-holder {
+    @extend .flex-container;
+    @extend .flex-right;
+    @extend .vertical-center;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: 190px;
+    padding: 0 122px;
+    z-index: 13;
+
+  }
+
+  .load-more-btn {
+    background: #bb9d69;
+    color: #fff;
+    text-decoration: none;
+    max-width: 314px;
+    width: 100%;
+    text-align: center;
+    padding: 37px 0;
+    font-size: 16px;
+    font-family: $bold;
+    @extend .flex-container;
+    @extend .vertical-center;
+    @extend .center-content;
+    transition: all .3s;
+    &:hover {
+      background: #393319;
+    }
+  }
+
+  .left-leaf, .right-leaf{
+    position: absolute;
+    top: 0;
+    z-index: 12;
+  }
+
+  .left-leaf {
+    left: 0;
+    top: -186px;
+  }
+
+  .right-leaf {
+    right: 0;
+    top: -3px;
+  }
+}
+
+.card-heading {
+  text-align: center;
+  line-height: 5em;
+}
+
+.card-year {
+  font-family: $bold;
+  font-size: 224px;
+  color: #b99655;
+  display: inline-block;
+}
+
+.card-year-2 {
+  vertical-align: text-top;
+}
+
+.card-year-desc {
+  font-size: 29px;
+  font-family: $bold;
+  color: #393319;
+  display: inline-block;
+  padding: 0;
+  max-width: 229px;
+  line-height: .8em;
+  text-align: left;
+  position: absolute;
+  right: 27px;
+  top: 25px;
+}
+
+.card-info-text {
+  position: relative;
+  max-width: 687px;
+  margin: auto;
+  column-count: 2;
+  column-fill: balance;
+  column-gap: 33px;
+  overflow-y: auto;
+  max-height: 180px;
+  p {
+    font-family: $bold;
+    font-size: 14px;
+    color: #393319;
+    line-height: 2em;
+  }
+}
+
+.card-year-holder {
+  position: relative;
+  display: inline-block;
+  margin-top: 87px;
+  margin-bottom: 25px;
+}
+
+.card-info-holder {
+  background: url('../img/card-bg.png') no-repeat;
+  min-height: 900px;
+  max-height: 944px;
+  overflow-x: hidden;
+  max-width: 1661px;
+  width: 100%;
+  margin: auto;
+  padding-top: 56px;
+  position: relative;
+}

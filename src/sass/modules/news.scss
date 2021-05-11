@@ -1,0 +1,30 @@
+.news-title {
+  color: #666666;
+  text-decoration: none;
+  font-family: $bold;
+  font-size: 18px;
+  display: block;
+  margin: 26px 0 12px;
+}
+
+.news-text {
+  color: #666666;
+  p {
+    font-size: 14px;
+  }
+}
+
+.news-btn {
+  text-align: center;
+  display: block;
+  border: 1px solid #6a6c75;
+  color: #666666;
+  font-family: $bold;
+  text-decoration: none;
+  padding: 14px 0;
+  margin: 26px 0 40px;
+}
+
+.news {
+  margin-bottom: 50px;
+}

@@ -1,0 +1,84 @@
+.footer-content {
+    position: relative;
+    background: #b99655;
+    margin-top: 207px;
+
+    &:before {
+        background: url('../img/footer-wood.png') no-repeat center top;
+        content: "";
+        margin-top: -160px;
+        display: block;
+        height: 143px;
+        position: absolute;
+        top: 17px;
+        width: 199px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer-bottom {
+        background: #846c3f;
+        padding: 7px 0;
+    }
+
+    .bottom-container-inner {
+        @extend .flex-container;
+        @extend .space-between;
+        @extend .vertical-center;
+        color: #fff;
+        .copyright {
+            font-size: 12px;
+        }
+    }
+
+    .footer-row {
+        @extend .flex-container;
+        @extend .space-between;
+        @extend .vertical-center;
+        padding: 27px 0;
+        color: #fff;
+        .footer-left-col {
+            @extend .flex-container;
+            font-size: 12px;
+        }
+
+        .footer-logo {
+            margin-right: 37px;
+        }
+
+        .footer-email {
+            a {
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer-menu {
+            list-style: none;
+            font-size: 12px;
+            @extend .flex-container;
+
+            li {
+                margin-right: 26px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .footer-address {
+            font-size: 12px;
+            margin-right: 63px;
+        }
+    }
+}

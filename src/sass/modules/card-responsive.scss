@@ -1,0 +1,55 @@
+
+
+@media (max-width: 1500px) {
+  .card-info-holder {
+    background-position: center;
+  }
+
+  .card-holder {
+    .button-holder {
+      right: -83px;
+      bottom: 195px;
+    }
+  }
+
+  .left-leaf, .right-leaf {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .about-index-section {
+    .about-inner {
+      padding: 49px 0 90px;
+    }
+  }
+
+  .card-holder {
+    .card-info-holder {
+      min-height: 520px !important;
+    }
+
+    .load-more-btn {
+      max-width: 250px;
+      padding: 19px 0;
+    }
+  }
+
+  .card-info-text {
+    column-count: 1;
+    padding: 0 20px;
+  }
+
+  .card-year-holder {
+    margin: 0;
+    .card-year {
+      font-size: 80px;
+    }
+    .card-year-desc {
+      font-size: 20px;
+      right: -134px;
+      top: 61px;
+    }
+  }
+}
+
