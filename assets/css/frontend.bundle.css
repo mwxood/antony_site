@@ -5345,6 +5345,7 @@ html {
   white-space: nowrap;
   width: 100%;
   padding: 0 86px;
+  margin-bottom: 32px;
 }
 .product-section .scroll-product .prod-scroll {
   display: inline-block;
