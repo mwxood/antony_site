@@ -64,3 +64,217 @@
   }
 }
 
+.product-section {
+  .table-description {
+    font-size: 40px;
+    font-family: $bold;
+    color: #464c2d;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+    .prod-table {
+      width: 100%;
+      background: #fff;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      border-collapse: collapse;
+      margin: 46px 0 70px;
+      th, td {
+        font-family: $regular;
+        font-weight: normal;
+        font-size: 14px;
+        padding: 13px 47px;
+        border-right: 1px solid #d5d5d5;
+        border-bottom: 1px solid #d5d5d5;
+        &:last-child {
+          border-right: none;
+        }
+      }
+      td {
+        border-bottom: none;
+        text-align: center;
+      }
+    }
+
+    .table-heading-desc {
+      font-family: $regular;
+      font-weight: normal;
+      font-size: 13px;
+      display: block;
+    }
+  }
+  #product-slider {
+    padding-top: 100px;
+    .splide__progress {display: none;}
+  }
+  .slide-prod-link {
+    position: absolute;
+    right: 174px;
+    bottom: 45px;
+    color: #bc9c61;
+    transition: all .3s;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .slide-count-holder {
+    position: absolute;
+    bottom: 29px;
+    left: 98px;
+    .current-slide {
+      font-size: 39px;
+      color: #bc9c61;
+      &:after {
+        content: '/';
+        display: inline-block;
+        margin: 0 3px;
+        color: #999999;
+        font-size: 30px;
+        vertical-align: middle;
+      }
+    }
+    .slide-count {
+      vertical-align: super;
+      font-size: 17px;
+      color: #999999;
+    }
+  }
+  .slider-holder {
+    background: url('../img/slide-bg.png') no-repeat;
+    min-height: 700px;
+
+    .pagination {display: none;}
+
+    .splide__track {
+      text-align: center;
+    }
+
+    .splide__arrows {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      border: 1px solid #939598;
+      border-left: none;
+      border-bottom: none;
+      bottom: -97px;
+      width: 245px;
+      height: 108px;
+      svg {
+        display: none;
+      }
+    }
+
+    .splide__arrow--prev {
+      background: url('../img/slide-prev.png') no-repeat;
+      width: 19px;
+      height: 20px;
+      transition: all .3s;
+      left: 39px;
+      &:hover {
+        background-position: 0 -26px;
+      }
+    }
+
+    .splide__arrow--next {
+      background: url('../img/slide-next.png') no-repeat;
+      width: 19px;
+      height: 20px;
+      right: 39px;
+      transition: all .3s;
+      &:hover {
+        background-position: 0 -26px;
+      }
+    }
+  }
+
+  &.inner-section  {
+    padding-top: 75px;
+    .heading-holder{
+      border-color: #939598;
+    }
+  }
+
+  &.category-section .filters-content {
+    @extend .vertical-center;
+  }
+
+  &.category-section .prod:after {
+    width: 143%;
+    min-height: 160px;
+  }
+
+  &.product-section.category-section .category-filters {
+    padding: 29px 0;
+  }
+
+  &.category-section .category-filters {
+   border-top: 1px solid #939598;
+  }
+
+  .heading-holder {
+    flex-wrap: wrap;
+    padding: 34px 0 ;
+  }
+
+  .breadcrumbs {
+    width: 100%;
+    margin-bottom: 19px;
+    justify-content: flex-start !important;
+  }
+
+  &.category-section .product-title h1 {
+    justify-content: flex-start !important;
+  }
+
+  &.category-section .product-title .title-desc {
+    text-align: left;
+    margin: inherit;
+  }
+
+  .product-title {
+    color: #464c2d;
+    .product-logo {
+      margin-right: 15px;
+      max-width: 51px;
+    }
+   h1 {
+     @extend .flex-container;
+     @extend .vertical-center;
+     font-size: 31px;
+     font-family: $regular;
+     font-weight: normal;
+   }
+
+    .title-desc {
+      max-width: 537px;
+      display: block;
+      font-size: 14px;
+    }
+  }
+
+  .custom-prod-row {
+    @extend .flex-container;
+    .left-col, .right-col {
+      width: 50%;
+      position: relative;
+    }
+    .left-col {
+      border-right: 1px solid #939598;
+    }
+  }
+
+  .scroll-product {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    padding: 0 86px;
+
+    .prod-scroll {
+      display:inline-block;
+      max-width: 118px;
+      margin: 0 44px;
+    }
+  }
+}

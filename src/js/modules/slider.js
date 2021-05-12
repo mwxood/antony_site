@@ -1,23 +1,27 @@
 const slider = () => {
-    const topSlider = document.querySelector('#top-slider');
+    const topSlider = document.querySelector('#product-slider');
+    const slideCount =  document.querySelector('.slide-count');
+    const currentSlide =  document.querySelector('.current-slide');
 
     if(!topSlider) {return;}
 
-    new Splide(topSlider, {
+    let splide = new Splide(topSlider, {
         type         : 'loop',
         perPage      : 1,
         autoplay     : true,
         interval     : 15000,
-        resetProgress: false,
-        pagination: false,
-        navigation: false,
-        // classes: {
-        //     arrows: 'splide__arrows splide-nav-holder',
-        //     arrow : 'splide__arrow',
-        //     prev  : 'splide__arrow--prev slide-prev',
-        //     next  : 'splide__arrow--next slide-next',
-        // },
+        pagination: true,
+        navigation: true,
+        classes: {
+            pagination: 'pagination',
+            page      : 'splide__pagination__page pagination-btn', // each button
+        }
+    });
+
+    splide.on('pagination:updated', function(data) {
+        slideCount.innerHTML = data.items.length;
+        currentSlide.textContent = splide.index + 1;
     }).mount();
-}
+};
 
 export default slider;
