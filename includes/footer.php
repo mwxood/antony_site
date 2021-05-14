@@ -29,16 +29,14 @@
             <div class="bottom-container-inner">
                 <span class="copyright">Copyright © Антоний ЕООД</span>
                 <a href="https://webstar.bg/ref=Antoniy" target="_blank">
-                    <img src="./assets/img/webstar-logo.svg" alt="">
+                    <img src="./assets/img/webstar-logo.svg" alt="webstar">
                 </a>
             </div>
         </div><!--end custom-container-->
     </div><!--end footer-bottom-->
 </footer>
 <!--<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>-->
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="./assets/js/frontend.bundle.js"></script>
 </body>

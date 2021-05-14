@@ -21,7 +21,7 @@
                 <nav class="top navigation"></nav>
             </div><!--end top-navigation-->
             <span class="ece-logo">
-                <img src="./assets/img/ece-logo.png" alt="">
+                <img src="./assets/img/ece-logo.png" alt="ece logo">
                 <span class="ece-logo-text">
                     Официален дистрибутор на ECE за България
                 </span>
@@ -30,7 +30,7 @@
 
         <div class="header-center">
             <a class="logo" href="/">
-                <img src="./assets/img/logo.png" alt="">
+                <img src="./assets/img/logo.png" alt="logo">
             </a>
         </div><!--end header-center-->
         <div class="header-right">

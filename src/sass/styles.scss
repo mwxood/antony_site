@@ -19,12 +19,17 @@
 @import 'modules/category';
 @import 'modules/contact';
 @import 'modules/custom-select';
+@import 'modules/pagination';
 @import 'modules/card-responsive';
 @import 'modules/about-responsive';
 @import 'modules/slider-responsive';
 @import 'modules/footer-responsive';
 @import 'modules/navigation-responsive';
-
+@import 'modules/product-responsive';
+@import 'modules/index-responsive';
+@import 'modules/category-responsive';
+@import 'modules/contact-responsive';
+@import 'modules/news-responsive';
 @import 'helper';
 
 // Responsive
@@ -67,3 +72,5 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+.content{position: relative; z-index: 1;}

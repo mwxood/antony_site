@@ -33,7 +33,6 @@
 
   .about-leaf {
     background: url('../img/leaf-big.png') no-repeat;
-    left: 0;
     top: 84px;
     width: 300px;
     height: 392px;
@@ -204,7 +203,7 @@ line-height: inherit;
     height: 1022px;
     display: block;
     top: 287px;
-    left: 0;
+    left: -25px;
   }
   .about-right-leaf {
     background: url('../img/about-right-leaf.png') no-repeat;
@@ -212,7 +211,7 @@ line-height: inherit;
     height: 976px;
     display: block;
     top: 274px;
-    right: 0;
+    right: -25px;
   }
 }
 
@@ -272,7 +271,7 @@ line-height: inherit;
     height: 1307px;
     width: 620px;
     position: absolute;
-    top: -364px;
+    top: -121px;
     left: 0;
     display: block;
   }

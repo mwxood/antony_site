@@ -65,12 +65,27 @@
 }
 
 .product-section {
+  &.inner-section {
+    .heading-holder {
+      justify-content: flex-start;
+      padding-left: 140px;
+    }
+  }
   .table-description {
     font-size: 40px;
     font-family: $bold;
     color: #464c2d;
-    padding-left: 100px;
+    padding-top: 30px;
+    padding-left: 140px;
     padding-right: 100px;
+    h2 {
+      line-height: 1;
+      font-size: 40px;
+      .table-heading-desc {
+        display: block;
+        margin-top: 8px;
+      }
+    }
     
 
     .prod-table {
@@ -142,7 +157,9 @@
   }
   .slider-holder {
     background: url('../img/slide-bg.png') no-repeat;
-    min-height: 700px;
+    height: 100%;
+    position: static;
+    background-size: cover;
 
     .pagination {display: none;}
 
@@ -157,7 +174,7 @@
       border: 1px solid #939598;
       border-left: none;
       border-bottom: none;
-      bottom: -97px;
+      bottom: 0;
       width: 245px;
       height: 108px;
       svg {

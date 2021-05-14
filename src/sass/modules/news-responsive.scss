@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    .news-section.inner-section {
+        padding-top: 10px;
+        .news-image {
+            display: block;
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+       
+    }
+}

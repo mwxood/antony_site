@@ -17,16 +17,43 @@
   }
 }
 
+@media (max-width: 710px) {
+  .card-info-text {
+    column-count: 1;
+    overflow-x: hidden;
+  }
+
+  .card-holder {
+    margin-bottom: 30px;
+  }
+
+  .about-index-section .about-inner {
+    padding: 49px 0 80px;
+  }
+
+  .product-index-section h3 {
+    font-size: 38px;
+    margin-bottom: 60px;
+
+  }
+
+  .company-info-container .company-text {
+    padding: 0 20px;
+  }
+}
+
 @media (max-width: 700px) {
   .about-index-section {
     .about-inner {
-      padding: 49px 0 90px;
+      .big-heading{
+        font-size: 44px;
+      }
     }
   }
 
   .card-holder {
     .card-info-holder {
-      min-height: 520px !important;
+      min-height: 434px !important;
     }
 
     .load-more-btn {
@@ -40,6 +67,12 @@
     padding: 0 20px;
   }
 
+  .card-heading {
+    line-height: 1;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
   .card-year-holder {
     margin: 0;
     .card-year {
@@ -48,7 +81,7 @@
     .card-year-desc {
       font-size: 20px;
       right: -134px;
-      top: 61px;
+      top: 3px;
     }
   }
 }

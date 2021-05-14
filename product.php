@@ -7,22 +7,20 @@
             <div class="left-col">
                 <div class="prod-heading">
                     <div class="heading-holder">
-                        <div class="custom-container">
-                            <ul class="breadcrumbs">
-                                <li><a href="/">Начало</a></li>
-                                <li><a href="category.php">Продукти</a></li>
-                                <li>ECE</li>
-                            </ul>
-                            <div class="product-title">
-                                <h1>
-                                    <span class="product-logo">
-                                        <img src="assets/img/ece-about-logo.png" alt="">
-                                    </span>Маслини Ece
-                                </h1>
-                                <span class="title-desc">
-                                    “Антоний” ЕООД е единственият официален представител на турската фирма “ JENICAG GIDA SAM JIK A . S ” за България и вносител на над 50 вида хранителни продукти с търговската марка ЕСЕ.
-                                </span>
-                            </div>
+                        <ul class="breadcrumbs">
+                            <li><a href="/">Начало</a></li>
+                            <li><a href="category.php">Продукти</a></li>
+                            <li>ECE</li>
+                        </ul>
+                        <div class="product-title">
+                            <h1>
+                                <span class="product-logo">
+                                    <img data-src="assets/img/ece-about-logo.png" alt="ece logo">
+                                </span>Маслини Ece
+                            </h1>
+                            <span class="title-desc">
+                                “Антоний” ЕООД е единственият официален представител на турската фирма “ JENICAG GIDA SAM JIK A . S ” за България и вносител на над 50 вида хранителни продукти с търговската марка ЕСЕ.
+                            </span>
                         </div>
                     </div>
                     <!--end heading-holder-->
@@ -35,63 +33,66 @@
                         <span class="table-heading-desc">Разфасовка: Буркан</span>
                     </h2>
 
-                    <table class="prod-table">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Сухо <br>
-                                    тегло (г.)
-                                </th>
-                                <th>
-                                    Бруто <br>
-                                    тегло (г.)
-                                </th>
-                                <th>
-                                    Бруто тегло<br>
-                                    на кашона (кг.)
-                                </th>
-                                <th>
-                                    Кутии<br>
-                                    в кашон
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                               <td>1/2</td> 
-                               <td>200 г.</td> 
-                               <td>430 г.</td> 
-                               <td>11,5 кг</td> 
-                               <td>24 кг</td> 
-                            </tr>
+                    <div class="table-wrap">
+                        <table class="prod-table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Сухо <br>
+                                        тегло (г.)
+                                    </th>
+                                    <th>
+                                        Бруто <br>
+                                        тегло (г.)
+                                    </th>
+                                    <th>
+                                        Бруто тегло<br>
+                                        на кашона (кг.)
+                                    </th>
+                                    <th>
+                                        Кутии<br>
+                                        в кашон
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1/2</td>
+                                    <td>200 г.</td>
+                                    <td>430 г.</td>
+                                    <td>11,5 кг</td>
+                                    <td>24 кг</td>
+                                </tr>
 
-                            <tr>
-                               <td>3/2</td> 
-                               <td>700 г.</td> 
-                               <td>1350 г.</td> 
-                               <td>9,2 кг</td> 
-                               <td>6 кг</td> 
-                            </tr>
+                                <tr>
+                                    <td>3/2</td>
+                                    <td>700 г.</td>
+                                    <td>1350 г.</td>
+                                    <td>9,2 кг</td>
+                                    <td>6 кг</td>
+                                </tr>
 
-                            <tr>
-                               <td>5/1</td> 
-                               <td>2750 г.</td> 
-                               <td>4750 г.</td> 
-                               <td>19,5 кг</td> 
-                               <td>4 кг</td> 
-                            </tr>
+                                <tr>
+                                    <td>5/1</td>
+                                    <td>2750 г.</td>
+                                    <td>4750 г.</td>
+                                    <td>19,5 кг</td>
+                                    <td>4 кг</td>
+                                </tr>
 
-                            <tr>
-                               <td>9/1</td> 
-                               <td>5000 г.</td> 
-                               <td>9220 г.</td> 
-                               <td>18,6 кг</td> 
-                               <td>2 кг</td> 
-                            </tr>
+                                <tr>
+                                    <td>9/1</td>
+                                    <td>5000 г.</td>
+                                    <td>9220 г.</td>
+                                    <td>18,6 кг</td>
+                                    <td>2 кг</td>
+                                </tr>
 
-                        </tbody>
-                    </table>
-                </div><!--end table-description-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!--end table-description-->
             </div>
             <!--end left-col-->
             <div class="right-col">
@@ -105,31 +106,31 @@
                             <ul class="splide__list">
                                 <li class="splide__slide">
                                     <a href="product.php">
-                                        <img src="assets/img/big-prod.png" alt="slide">
+                                        <img data-src="assets/img/big-prod.png" alt="slide">
                                     </a>
                                 </li>
 
                                 <li class="splide__slide">
                                     <a href="product.php">
-                                        <img src="assets/img/big-prod.png" alt="slide">
+                                        <img data-src="assets/img/big-prod.png" alt="slide">
                                     </a>
                                 </li>
 
                                 <li class="splide__slide">
                                     <a href="product.php">
-                                        <img src="assets/img/big-prod.png" alt="slide">
+                                        <img data-src="assets/img/big-prod.png" alt="slide">
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    
+
                 </div>
                 <!--end slider-holder-->
                 <div class="slide-count-holder">
-                        <span class="current-slide"></span>
-                        <sup class="slide-count"></sup>
-                    </div>
+                    <span class="current-slide"></span>
+                    <sup class="slide-count"></sup>
+                </div>
                 <a class="slide-prod-link" href="#">Къде да открия този продукт</a>
             </div>
             <!--end right-col-->
@@ -173,7 +174,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -185,7 +186,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -197,7 +198,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -209,7 +210,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -221,7 +222,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -233,7 +234,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -245,7 +246,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -257,7 +258,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -269,7 +270,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -281,7 +282,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -293,7 +294,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -305,7 +306,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -317,7 +318,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -329,7 +330,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -341,7 +342,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -353,7 +354,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -365,7 +366,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -377,7 +378,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -389,7 +390,7 @@
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
-                        <img src="assets/img/prod.png" alt="Product">
+                        <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
                         Черни маслини <br> без костилка
@@ -400,15 +401,17 @@
         </div>
 
         <div class="company-info-container">
-                <span class="company-logo">
-                    <img src="assets/img/antony-logo.png" alt="company logo">
-                    <span class="company-logo-slogan">Официален дистрибутор на ECE и KIRLANGIC за България</span>
-                </span>
+            <span class="company-logo">
+                <img data-src="assets/img/antony-logo.png" alt="company logo">
+                <span class="company-logo-slogan">Официален дистрибутор на ECE и KIRLANGIC за България</span>
+            </span>
 
-                <div class="company-text">
-                    <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.</p>
-                </div><!--end -->
-            </div><!--end company-info-container-->
+            <div class="company-text">
+                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски букви и ги разбърква, за да напечата с тях книга с примерни шрифтове. Този начин не само е оцелял повече от 5 века, но е навлязъл и в публикуването на електронни издания като е запазен почти без промяна. Популяризиран е през 60те години на 20ти век със издаването на Letraset листи, съдържащи Lorem Ipsum пасажи, популярен е и в наши дни във софтуер за печатни издания като Aldus PageMaker, който включва различни версии на Lorem Ipsum.</p>
+            </div>
+            <!--end -->
+        </div>
+        <!--end company-info-container-->
 
     </section>
 </main>

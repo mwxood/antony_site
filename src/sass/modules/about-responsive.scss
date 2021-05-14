@@ -18,6 +18,70 @@
       bottom: 205px;
     }
   }
+  .about-section {
+    .about-left-leaf, .about-right-leaf {
+      display: none;
+    }
+  }
+
+  
+  
+  .about-section {
+    .company-info-container {
+      margin-top: 30px;
+    }
+    .tab-content {
+      min-height: inherit;
+      margin: 100px 0 0;
+    }
+    .about-section-title {
+      margin-bottom: 0;
+    }
+
+    .about-bg {
+      background: none;
+      min-height: inherit;
+      .brand-holder .brand-hand-oil {display: none;}
+      margin-bottom: 100px;
+    }
+
+    .brand-bg {
+      background: none;
+      min-height: inherit;
+    }
+
+    .card-year-holder {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .about-text-content {
+      margin-top: 15px;
+    }
+
+    .brand-holder {
+      margin-top: 90px;
+    }
+
+
+
+    .card-heading {
+      .card-year {
+        font-size: 160px;
+      }
+
+      .card-year-2 {
+        margin-left: 0;
+        margin-top: -90px;
+      }
+
+      .card-year-desc {
+        right: 20px;
+        top: 72px;
+      }
+    }
+  }
+
 }
 @media (max-width: 1300px) {
   .card-holder {
@@ -34,10 +98,33 @@
     padding: 0;
   }
   }
+
+  .brand-holder .brand-hand-oil {display: none;}
+
+  .brand-bg {
+    margin-top: 0;
+    padding-top: 0;
+    min-height: auto;
+    background: none;
+  }
+
+  .brand-holder {
+    margin-top: 100px;
+  }
+
+  .about-section  {
+    .about-bg {
+      min-height: auto;
+    }
+  }
 }
 
 @media (max-width: 1200px) {
   .about-index-section {
+    padding-top: 0;
+    min-height: auto;
+    
+
     .about-cols {
       padding: 20px;
     }
@@ -46,17 +133,35 @@
     }
     .about-inner {
       margin-left: 0;
-      .big-heading {
-
-      }
       h2 {
         font-size: 60px;
         padding: 0 20px;
       }
     }
+
+  }
+
+  .history-text-content .history-wood {
+    display: none;
+  }
+
+  .about-section  {
+    .about-bg {
+      margin-bottom: 50px;
+    }
+    .tab-content {
+      margin: 100px 20px 0;
+    }
   }
 }
 
+@media (max-width: 1050px) {
+  .history-text-content {
+    .history-title h3 {
+      font-size: 60px;
+    }
+  }
+}
 
 @media (max-width: 1000px) {
   .card-year {
@@ -66,6 +171,22 @@
     right: -70px;
     top: 44px;
   }
+
+  .about-section {
+    .about-section-title {
+      margin-bottom: 30px;
+    }
+    .brand-holder {
+      .about-brand-title {
+        font-size: 60px;
+      }
+      .brand-text-holder {
+        padding: 0 20px;
+      }
+    }
+  }
+
+
 }
 
 
@@ -79,6 +200,32 @@
       position: static;
       border-bottom: 1px solid #939598;
       padding: 23px;
+    }
+  }
+
+  .about-section {
+    .tab-content {
+      margin: 36px 20px 0;
+      .tab-text {
+        display: block;
+        p {
+          width: 100%;
+        }
+      }
+    }
+    .history-holder {
+      min-height: inherit;
+    }
+
+    .company-info-container {
+      margin-top: 100px;
+    }
+
+    .history-text-content  {
+      padding-top: 140px;
+      .history-title h3 {
+        font-size: 50px;
+      }
     }
   }
 }
@@ -101,6 +248,110 @@
         max-width: inherit;
         margin-right: 0;
 
+      }
+    }
+  }
+
+  .tab-content {
+    padding: 30px 40px;
+  }
+
+  .tab-content .tab-nav li {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .about-section  {
+    .tab-nav {
+      flex-wrap: wrap;
+      border-bottom: none;
+      margin-bottom: 30px;
+      li {
+        width: 100%;
+        padding: 10px 0;
+      }
+    }
+    
+    .about-bg {
+      padding-top: 0;
+      margin-bottom: 20px;
+    }
+    .card-heading  {
+      margin-top: 10px;
+      .card-year {
+        font-size: 100px;
+      }
+      .card-year-2 {
+        margin-top: -37px;
+      }
+      .card-year-desc {
+        right: 0;
+        top: 48px;
+      }
+    }
+  }
+  .brand-holder {
+    .brands {
+      flex-wrap: wrap;
+      li {
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 580px) {
+  .about-section {
+    .brand-holder  {
+      .about-brand-title {
+        font-size: 30px;
+        line-height: 1.2;
+        margin-bottom: 30px;
+        .title-inner {
+          font-size: 30px;
+        }
+      }
+
+      .brands {
+        li {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about-index-section .about-inner  {
+    h2 {
+      font-size: 45px;
+    }
+    .big-heading {
+      font-size: 38px;
+    }
+    .small-heading {
+      font-size: 38px;
+    }
+  }
+  
+}
+
+@media (max-width: 480px) { 
+  .about-section {
+    .tabs h4 {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+    .history-text-content {
+      .history-title h3 {
+        font-size: 35px;
+        line-height: 1.2;
       }
     }
   }

@@ -79,7 +79,7 @@
 
             <div class="company-info-container">
                 <span class="company-logo">
-                    <img src="assets/img/antony-logo.png" alt="company logo">
+                    <img data-src="assets/img/antony-logo.png" alt="company logo">
                     <span class="company-logo-slogan">Официален дистрибутор на ECE и KIRLANGIC за България</span>
                 </span>
 

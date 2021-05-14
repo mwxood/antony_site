@@ -15,7 +15,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-1.jpg" alt="">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-2.jpg" alt="">
+                                <img data-src="assets/img/news/news-2.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -43,7 +43,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-3.jpg" alt="">
+                                <img data-src="assets/img/news/news-3.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -57,7 +57,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-4.jpg" alt="">
+                                <img data-src="assets/img/news/news-4.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -72,7 +72,7 @@
 
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-1.jpg" alt="">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -86,7 +86,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-2.jpg" alt="">
+                                <img data-src="assets/img/news/news-2.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-3.jpg" alt="">
+                                <img data-src="assets/img/news/news-3.jpg" alt="news">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <a href="#" class="news-image">
-                                <img src="assets/img/news/news-4.jpg" alt="">
+                                <img data-src="assets/img/news/news-4.jpg" alt="">
                             </a>
                             <a href="#" class="news-title">
                                 Очаквайте скоро нови продукти в продуктовата гама на ECE.
@@ -132,7 +132,7 @@
 
             <div class="company-info-container">
                 <span class="company-logo">
-                    <img src="assets/img/antony-logo.png" alt="company logo">
+                    <img data-src="assets/img/antony-logo.png" alt="company logo">
                     <span class="company-logo-slogan">Официален дистрибутор на ECE и KIRLANGIC за България</span>
                 </span>
 

@@ -7,18 +7,18 @@
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="assets/img/slide-1.jpg" alt="">
-                            <a href="#" class="slider-more-btn">
+                            <img src="assets/img/slide-1.jpg" alt="slide">
+                            <a href="category.php" class="slider-more-btn">
                                 Всички продукти
-                                <img src="assets/img/button-arrow.png" alt="">
+                                <img data-src="assets/img/button-arrow.png" alt="arrow">
                             </a>
                         </li>
 
                         <li class="splide__slide">
-                            <img src="assets/img/slide-1.jpg" alt="">
-                            <a href="#" class="slider-more-btn">
+                            <img src="assets/img/slide-1.jpg" alt="slide">
+                            <a href="category.php" class="slider-more-btn">
                                 Всички продукти
-                                <img src="assets/img/button-arrow.png" alt="">
+                                <img data-src="assets/img/button-arrow.png" alt="arrow">
                             </a>
                         </li>
                     </ul>
@@ -28,12 +28,12 @@
     </div><!--end slider-holder-->
 
     <div class="card-holder">
-        <span class="left-leaf">
-            <img src="assets/img/leaf-left.png" alt="">
+        <span class="left-leaf" data-speed="2">
+            <img src="assets/img/leaf-left.png" alt="leaf">
         </span>
 
-        <span class="right-leaf">
-            <img src="assets/img/right-leaf.png" alt="">
+        <span class="right-leaf" data-speed="2">
+            <img src="assets/img/right-leaf.png" alt="leaf">
         </span>
 
         <div class="card-info-holder">
@@ -50,7 +50,7 @@
            <p>висококвалифициран и отговорен персонал, съвременен транспорт и всичко необходимо за пълното задоволяване на клиента.</p>
             </div>
             <div class="button-holder">
-                <a href="about.php" class="load-more-btn">Прочети повече тук <img src="assets/img/button-arrow.png" alt="button arrow"></a>
+                <a href="about.php" class="load-more-btn">Прочети повече тук <img data-src="assets/img/button-arrow.png" alt="button arrow"></a>
             </div>
         </div><!--end card-info-holder-->
 
@@ -84,14 +84,14 @@
             <span class="sub-title">Разгледайте цялата продуктова гама маслини и зехтин</span>
         </h3>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6 col-md-6 index-left-col">
                 <a href="product.php" class="oil-col left-col">
-                    <img src="assets/img/left-stamp.png" alt="stamp">
+                    <img data-src="assets/img/left-stamp.png" alt="stamp">
                 </a>
             </div><!--end col-md-6-->
-            <div class="col-md-6">
+            <div class="col-sm-6 col-md-6 index-right-col">
                 <a href="product.php" class="oil-col right-col">
-                    <img src="assets/img/right-stamp.png" alt="stamp">
+                    <img data-src="assets/img/right-stamp.png" alt="stamp">
                 </a>
             </div><!--end col-md-6-->
         </div><!--end row-->
@@ -99,7 +99,7 @@
 
     <div class="company-info-container">
         <span class="company-logo">
-            <img src="assets/img/antony-logo.png" alt="company logo">
+            <img data-src="assets/img/antony-logo.png" alt="company logo">
             <span class="company-logo-slogan">Официален дистрибутор на ECE и KIRLANGIC за България</span>
         </span>
 

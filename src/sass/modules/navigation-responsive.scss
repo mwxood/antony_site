@@ -33,6 +33,12 @@
   width: 96px;
 }
 
+@media (max-width: 600px) { 
+  .header {
+    position: relative;
+  }
+}
+
 @media (max-width: 480px) {
   .top-navigation, .header-right, .lang-holder {
     width: 56px;
@@ -46,6 +52,14 @@
     ul li {
       padding: 10px 16px;
     }
+  }
+
+  .header-left {
+    width: 56px;
+  }
+
+  .ece-logo {
+    width: 100%;
   }
 
   .navigation-holder {

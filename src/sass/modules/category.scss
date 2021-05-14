@@ -83,7 +83,7 @@
   .filters-content {
     @extend .flex-container;
     @extend .space-between;
-
+    @extend .vertical-center;
   }
 
   .filters-nav {

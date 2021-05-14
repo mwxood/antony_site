@@ -1,4 +1,4 @@
-import { gsap, TimelineLite, TimelineMax, Back } from "gsap/all";
+import { gsap, Back } from "gsap/all";
 const navigation = () => {
     let isMobile = false;
     const navHolder = document.querySelector('.navigation-holder');
@@ -19,7 +19,7 @@ const navigation = () => {
                 tl.reverse(.7);
             }
         });
-    }
+    };
 
     const isActiveMobile = () => {
         if(window.innerWidth <= 1024) {
@@ -27,7 +27,7 @@ const navigation = () => {
         } else {
             isMobile = false;
         }
-    }
+    };
 
     const resize = () => {
         let resizeTimer;
@@ -38,11 +38,11 @@ const navigation = () => {
                 isActiveMobile();
              }, 250);
         });
-    }
+    };
 
 
     resize();
     mobileNavigation();
-}
+};
 
 export default navigation;

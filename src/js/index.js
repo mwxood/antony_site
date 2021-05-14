@@ -1,16 +1,22 @@
 import '../sass/styles.scss';
 import navigation from './modules/navigation'
 import slider from "./modules/slider";
-import scrollEffects from "./modules/scrollEffects";
+import indexEffects from "./modules/indexEffects";
 import gallery from "./modules/gallery";
 import tabs from "./modules/tabs";
 import customSelect from "./modules/customSelect";
+import topSlider from "./modules/topSlider";
+import aboutEffects from "./modules/aboutEffects";
+import lazyLoad from "./modules/lazyLoad";
 
 document.addEventListener('DOMContentLoaded', function () {
     navigation();
-    scrollEffects();
+    indexEffects();
+    aboutEffects();
     slider();
     customSelect();
+    topSlider();
+    lazyLoad();
     tabs({
         tabsNav: '.tab-nav a',
         tabsContent: '.tab',
