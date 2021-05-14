@@ -54,24 +54,31 @@
                <div class="contact-form">
                     <span class="contact-title">Изпратете ни запитване</span>
 
-                   <form action="" class="contacts">
+                   <div class="error-messages">
+                        <span class="error-message"  data-message="Моля, попълнете всички полета!"></span>
+                   </div>
+                   
+                    <form action="" class="contacts">
                        <div class="form-group">
                            <label class="half-width">
-                               <input type="text" class="input-bg" placeholder="Вашето име">
-                           </label>
+                               <input type="text" class="input-bg input-valdation" placeholder="Вашето име">
+                               
+                            </label>
                            <label class="half-width">
-                               <input type="text" class="input-bg" placeholder="Вашият имейл">
-                           </label>
+                               <input type="text" class="input-bg email-valdation" placeholder="Вашият имейл">
+                              
+                            </label>
                        </div>
 
                        <div class="form-group">
                            <label>
-                               <textarea name="" class="input-bg" placeholder="Съобщение" cols="30" rows="10"></textarea>
-                           </label>
+                               <textarea name="" class="input-bg input-valdation" placeholder="Съобщение" cols="30" rows="10"></textarea>
+                                
+                            </label>
                        </div>
                        <div class="buttons-holder">
                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                           <input type="submit" class="send-btn" value="Изпрати">
+                           <input type="submit" class="send-btn contact-btn" value="Изпрати">
                        </div>
                    </form>
                </div>

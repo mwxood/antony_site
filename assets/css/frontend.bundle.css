@@ -5770,6 +5770,21 @@ html {
   font-size: 14px;
 }
 
+.error {
+  border-color: #e74c3c;
+}
+
+.error-messages {
+  margin: 20px 0;
+  background: #e74c3c;
+  color: #fff;
+  display: none;
+  padding: 10px;
+}
+.error-messages.active-error {
+  display: block;
+}
+
 .custom-select {
   position: relative;
 }

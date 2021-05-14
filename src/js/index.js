@@ -8,6 +8,7 @@ import customSelect from "./modules/customSelect";
 import topSlider from "./modules/topSlider";
 import aboutEffects from "./modules/aboutEffects";
 import lazyLoad from "./modules/lazyLoad";
+import formValidation from "./modules/formValidation";
 
 document.addEventListener('DOMContentLoaded', function () {
     navigation();
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
     customSelect();
     topSlider();
     lazyLoad();
+    formValidation();
     tabs({
         tabsNav: '.tab-nav a',
         tabsContent: '.tab',
