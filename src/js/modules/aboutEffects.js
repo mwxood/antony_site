@@ -18,7 +18,7 @@ const about = () => {
 
   const scrollEffect = () => {
     if (!isMobile) {
-      if (!leftLeaf || !rightLeaf || handOil || historyHolder || tabContent) {
+      if (!leftLeaf || !rightLeaf || !handOil || !historyHolder || !tabContent) {
         return;
       }
       const moveElements = (leftLeaf, rightLeaf) => {
@@ -159,6 +159,7 @@ const about = () => {
       }, 250);
     });
   };
+  scrollEffect();
   isActiveMobile();
   resize();
 };

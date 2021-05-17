@@ -5854,6 +5854,88 @@ html {
   margin-right: 0;
 }
 
+.modalGallery {
+  display: flex;
+  z-index: 12;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 10px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0;
+}
+.modalGallery .close-gallery {
+  position: absolute;
+  right: -30px;
+  top: -30px;
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.gallery {
+  flex-wrap: wrap;
+  list-style: none;
+}
+.gallery li {
+  width: 301px;
+  height: 249px;
+  overflow: hidden;
+}
+.gallery li a {
+  position: relative;
+}
+.gallery li a:hover:before, .gallery li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+.gallery li a:before {
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(249, 169, 54, 0.8);
+  transition: all 0.3s;
+}
+.gallery li a:after {
+  opacity: 0;
+  visibility: hidden;
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 44px;
+  height: 44px;
+  transition: all 0.3s;
+}
+
+.gallery-arrow-holder {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 30px;
+  left: 0;
+}
+.gallery-arrow-holder i {
+  font-size: 56px;
+  cursor: pointer;
+  display: block;
+}
+.gallery-arrow-holder .icon-keyboard_arrow_right {
+  position: absolute;
+  right: -53px;
+}
+.gallery-arrow-holder .icon-keyboard_arrow_left {
+  position: absolute;
+  left: -53px;
+}
+
 @media (max-width: 1500px) {
   .card-info-holder {
     background-position: center;
@@ -6578,7 +6660,7 @@ html {
   background: #a01d21;
 }
 
-.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .product-section .product-title h1, .product-section .custom-prod-row, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .category-section .filters-content, .category-section .filters-nav, .category-section .category-form, .contact-section .address-header, .contact-section .contact-info, .contact-section .address-title, .contact-section .contact-form .buttons-holder, .form-group, .pagination {
+.flex-container, .header-container, .header-left, .header-center, .header-right, .top-navigation, .lang-holder, .navigation-holder, .navigation-holder .nav-address-wrap, .navigation-holder .nav-address-wrap .lang, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .about-index-section .about-cols, .brand-holder .brand-ese-logo, .tab-content .tab-nav, .tabs .tab-text, .product-index-section .oil-col, .product-section .product-title h1, .product-section .custom-prod-row, .company-info-container .company-logo, .footer-content .bottom-container-inner, .footer-content .footer-row, .footer-content .footer-row .footer-left-col, .footer-content .footer-row .footer-menu, .inner-section .heading-holder, .inner-section .breadcrumbs, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .category-section .filters-content, .category-section .filters-nav, .category-section .category-form, .contact-section .address-header, .contact-section .contact-info, .contact-section .address-title, .contact-section .contact-form .buttons-holder, .form-group, .pagination, .gallery, .gallery li {
   display: flex;
 }
 
@@ -6586,11 +6668,11 @@ html {
   justify-content: flex-end;
 }
 
-.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .brand-holder .brand-ese-logo, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod {
+.center-content, .header-center, .card-holder .load-more-btn, .about-index-section .about-button, .brand-holder .brand-ese-logo, .product-index-section .oil-col, .company-info-container .company-logo, .inner-section .heading-holder, .category-section .heading-holder .breadcrumbs, .category-section .product-title h1, .category-section .prod, .gallery li {
   justify-content: center;
 }
 
-.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .product-section.category-section .filters-content, .product-section .product-title h1, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .product-title h1, .category-section .filters-content, .category-section .category-form, .contact-section .address-title {
+.vertical-center, .top-navigation, .lang-holder, .languages li, .card-holder .button-holder, .card-holder .load-more-btn, .about-index-section .about-button, .product-index-section .oil-col, .product-section.category-section .filters-content, .product-section .product-title h1, .footer-content .bottom-container-inner, .footer-content .footer-row, .category-section .product-title h1, .category-section .filters-content, .category-section .category-form, .contact-section .address-title, .gallery li {
   align-items: center;
 }
 
@@ -6601,6 +6683,16 @@ html {
 .custom-container {
   max-width: 1650px;
   margin: auto;
+}
+
+.overlay {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.8);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
 }
 
 @media (max-width: 980px) {

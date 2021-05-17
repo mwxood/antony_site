@@ -105,13 +105,13 @@
                         <div class="splide__track" id="splide-track">
                             <ul class="splide__list">
                                 <li class="splide__slide">
-                                    <a href="product.php">
+                                    <a  class="gallery-img" href="assets/img/big-prod.png">
                                         <img data-src="assets/img/big-prod.png" alt="slide">
                                     </a>
                                 </li>
 
                                 <li class="splide__slide">
-                                    <a href="product.php">
+                                    <a class="gallery-img" href="assets/img/big-prod.png">
                                         <img data-src="assets/img/big-prod.png" alt="slide">
                                     </a>
                                 </li>
