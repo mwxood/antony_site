@@ -12,121 +12,96 @@
 
             <div class="custom-container">
                 <div class="news">
-                    <div class="row">
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
+                    <div class="row news-inner">
+                       <div class="col-sm-6">
+                        <a href="#" class="news-image">
                                 <img data-src="assets/img/news/news-1.jpg" alt="news">
                             </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
+                        </div>
+                        <div class="col-sm-6">
+                            
                             <div class="news-text">
                                 <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
                                 </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-2.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
 
-                            <div class="news-text">
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+
                                 <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
                                 </p>
                             </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-3.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-4.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
+                           
                         </div>
 
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-1.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
 
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-2.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-3.jpg" alt="news">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
-                        <div class="col-sm-6 col-xl-3">
-                            <a href="#" class="news-image">
-                                <img data-src="assets/img/news/news-4.jpg" alt="">
-                            </a>
-                            <a href="#" class="news-title">
-                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
-                            </a>
-
-                            <div class="news-text">
-                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
-                                </p>
-                            </div>
-                            <a href="#" class="news-btn">Прочетете още</a>
-                        </div>
                     </div><!--end row-->
+
+                    <h2 class="similar_news">Подобни новини</h2>
+
+                    <div class="row">
+                    <div class="col-sm-6 col-xl-3">
+                            <a href="#" class="news-image">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
+                            </a>
+                            <a href="#" class="news-title">
+                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
+                            </a>
+
+                            <div class="news-text">
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+                            </div>
+                            <a href="#" class="news-btn">Прочетете още</a>
+                        </div>
+
+                        <div class="col-sm-6 col-xl-3">
+                            <a href="#" class="news-image">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
+                            </a>
+                            <a href="#" class="news-title">
+                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
+                            </a>
+
+                            <div class="news-text">
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+                            </div>
+                            <a href="#" class="news-btn">Прочетете още</a>
+                        </div>
+
+                        <div class="col-sm-6 col-xl-3">
+                            <a href="#" class="news-image">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
+                            </a>
+                            <a href="#" class="news-title">
+                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
+                            </a>
+
+                            <div class="news-text">
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+                            </div>
+                            <a href="#" class="news-btn">Прочетете още</a>
+                        </div>
+
+                        <div class="col-sm-6 col-xl-3">
+                            <a href="#" class="news-image">
+                                <img data-src="assets/img/news/news-1.jpg" alt="news">
+                            </a>
+                            <a href="#" class="news-title">
+                                Очаквайте скоро нови продукти в продуктовата гама на ECE.
+                            </a>
+
+                            <div class="news-text">
+                                <p>Lorem Ipsum е елементарен примерен текст, използван в печатарската и типографската индустрия. Lorem Ipsum е индустриален стандарт от около 1500 година, когато неизвестен печатар взема няколко печатарски.
+                                </p>
+                            </div>
+                            <a href="#" class="news-btn">Прочетете още</a>
+                        </div>
+                    </div>
                 </div><!--end news-->
             </div><!--end custom-container-->
 

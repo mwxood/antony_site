@@ -167,6 +167,8 @@
   .navigation {
     border-bottom: 1px solid #5d6267;
     margin-bottom: 30px;
+    overflow-y: auto;
+    max-height: 351px;
     ul {
       list-style: none;
     }

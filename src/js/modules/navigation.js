@@ -2,6 +2,7 @@ import { gsap, Back } from "gsap/all";
 const navigation = () => {
     let isMobile = false;
     const navHolder = document.querySelector('.navigation-holder');
+    const topNav = document.querySelector('.top-navigation');
 
     const mobileNavigation = () => {
         const navTrigger = document.querySelector('.mobile-btn-trigger');
@@ -10,7 +11,7 @@ const navigation = () => {
         tl.paused(true);
         tl.to('.navigation-holder', {clipPath: 'circle(100%)'});
 
-        navTrigger.addEventListener('click', () => {
+        topNav.addEventListener('click', () => {
             if(!document.body.classList.contains('nav-active')) {
                 document.body.classList.add('nav-active');
                 tl.play();

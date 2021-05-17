@@ -6,6 +6,7 @@
       margin-bottom: 0;
     }
   }
+  
 
   .map {
     iframe {
@@ -159,5 +160,14 @@
 
   &.active-error {
     display: block;
+  }
+}
+
+.contact-section .contact-form .send-btn {
+  cursor: pointer;
+  transition: all .3s;
+  &:hover {
+    background: rgb(240, 240, 240);
+    color: #bc9c61;
   }
 }

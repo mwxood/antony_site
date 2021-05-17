@@ -65,6 +65,10 @@
 }
 
 .product-section {
+
+  .company-info-container {
+    margin-top: 32px;
+  }
   &.inner-section {
     .heading-holder {
       justify-content: flex-start;
@@ -78,7 +82,11 @@
     padding-top: 30px;
     padding-left: 140px;
     padding-right: 100px;
-    h2 {
+    font-weight: normal;
+    font-family: $regular;
+    font-size: 16px;
+    padding-bottom: 10px;
+    h1 {
       line-height: 1;
       font-size: 40px;
       .table-heading-desc {
@@ -88,7 +96,7 @@
     }
     
 
-    .prod-table {
+    .prod-table, .table {
       width: 100%;
       background: #fff;
       box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -225,9 +233,6 @@
     padding: 29px 0;
   }
 
-  &.category-section .category-filters {
-   border-top: 1px solid #939598;
-  }
 
   .heading-holder {
     flex-wrap: wrap;
@@ -240,7 +245,7 @@
     justify-content: flex-start !important;
   }
 
-  &.category-section .product-title h1 {
+  &.category-section .product-title h2 {
     justify-content: flex-start !important;
   }
 
@@ -255,7 +260,7 @@
       margin-right: 15px;
       max-width: 51px;
     }
-   h1 {
+   h2 {
      @extend .flex-container;
      @extend .vertical-center;
      font-size: 31px;
@@ -275,6 +280,7 @@
     .left-col, .right-col {
       width: 50%;
       position: relative;
+      border-bottom: 1px solid #939598;
     }
     .left-col {
       border-right: 1px solid #939598;
@@ -287,7 +293,6 @@
     white-space: nowrap;
     width: 100%;
     padding: 0 86px;
-    margin-bottom: 32px;
 
     .prod-scroll {
       display:inline-block;

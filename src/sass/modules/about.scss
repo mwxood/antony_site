@@ -388,13 +388,10 @@ line-height: inherit;
     max-height: 517px;
     overflow-y: auto;
     padding-right: 30px;
-    @extend .flex-container;
-    @extend .space-between;
-    flex-wrap: wrap;
     p {
-      width: 47%;
       font-size: 14px;
       line-height: 1.5em;
+
     }
   }
 }

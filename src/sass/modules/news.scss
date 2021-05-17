@@ -7,11 +7,23 @@
   margin: 26px 0 12px;
 }
 
+.news-inner {
+  margin-bottom: 100px;
+}
+
+.similar_news {
+  margin-bottom: 30px;
+}
+
 .news-text {
   color: #666666;
   p {
     font-size: 14px;
   }
+}
+
+.news-image {
+  display: block;
 }
 
 .news-btn {
@@ -23,6 +35,13 @@
   text-decoration: none;
   padding: 14px 0;
   margin: 26px 0 40px;
+  transition: all .3s;
+
+  &:hover {
+    background: #b99655;
+    border-color: #b99655;
+    color: #fff;
+  }
 }
 
 .news {

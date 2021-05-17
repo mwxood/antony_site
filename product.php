@@ -12,12 +12,17 @@
                             <li><a href="category.php">Продукти</a></li>
                             <li>ECE</li>
                         </ul>
-                        <div class="product-title">
-                            <h1>
+
+                        <h1 class="mobile-heading">
+                            Черни маслини с костилка "Gemlik"
+                            <span class="table-heading-desc">Разфасовка: Буркан</span>
+                        </h1>
+                        <div class="product-title desktop-title">
+                            <h2>
                                 <span class="product-logo">
                                     <img data-src="assets/img/ece-about-logo.png" alt="ece logo">
                                 </span>Маслини Ece
-                            </h1>
+                            </h2>
                             <span class="title-desc">
                                 “Антоний” ЕООД е единственият официален представител на турската фирма “ JENICAG GIDA SAM JIK A . S ” за България и вносител на над 50 вида хранителни продукти с търговската марка ЕСЕ.
                             </span>
@@ -27,11 +32,12 @@
                 </div>
                 <!--end prod-heading-->
 
-                <div class="table-description">
-                    <h2>
+                <div class="table-description desktop-table">
+                    <h1 class="desktop-heading">
                         Черни маслини с костилка "Gemlik"
                         <span class="table-heading-desc">Разфасовка: Буркан</span>
-                    </h2>
+                    </h1>
+                    
 
                     <div class="table-wrap">
                         <table class="prod-table">
@@ -90,6 +96,7 @@
 
                             </tbody>
                         </table>
+                        
                     </div>
                 </div>
                 <!--end table-description-->
@@ -132,8 +139,86 @@
                     <sup class="slide-count"></sup>
                 </div>
                 <a class="slide-prod-link" href="#">Къде да открия този продукт</a>
+            
+                
             </div>
             <!--end right-col-->
+
+            <div class="product-title mobile-title">
+                            <h2>
+                                <span class="product-logo">
+                                    <img data-src="assets/img/ece-about-logo.png" alt="ece logo">
+                                </span>Маслини Ece
+                            </h2>
+                            <span class="title-desc">
+                                “Антоний” ЕООД е единственият официален представител на турската фирма “ JENICAG GIDA SAM JIK A . S ” за България и вносител на над 50 вида хранителни продукти с търговската марка ЕСЕ.
+                            </span>
+                        </div>
+
+            <div class="table-description mobile-table">
+                   
+
+                    <div class="table-wrap">
+                        <table class="prod-table">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Сухо <br>
+                                        тегло (г.)
+                                    </th>
+                                    <th>
+                                        Бруто <br>
+                                        тегло (г.)
+                                    </th>
+                                    <th>
+                                        Бруто тегло<br>
+                                        на кашона (кг.)
+                                    </th>
+                                    <th>
+                                        Кутии<br>
+                                        в кашон
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1/2</td>
+                                    <td>200 г.</td>
+                                    <td>430 г.</td>
+                                    <td>11,5 кг</td>
+                                    <td>24 кг</td>
+                                </tr>
+
+                                <tr>
+                                    <td>3/2</td>
+                                    <td>700 г.</td>
+                                    <td>1350 г.</td>
+                                    <td>9,2 кг</td>
+                                    <td>6 кг</td>
+                                </tr>
+
+                                <tr>
+                                    <td>5/1</td>
+                                    <td>2750 г.</td>
+                                    <td>4750 г.</td>
+                                    <td>19,5 кг</td>
+                                    <td>4 кг</td>
+                                </tr>
+
+                                <tr>
+                                    <td>9/1</td>
+                                    <td>5000 г.</td>
+                                    <td>9220 г.</td>
+                                    <td>18,6 кг</td>
+                                    <td>2 кг</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        
+                    </div>
+                </div>
+                <!--end table-description-->
         </div>
         <!--end custom-prod-row-->
 

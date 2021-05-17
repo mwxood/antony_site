@@ -207,13 +207,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="product.php" class="oil-col left-col">
-                        <img data-src="assets/img/left-stamp.png" alt="stamp">
+                        <img data-src="assets/img/right-stamp.png" alt="stamp">
                     </a>
                 </div>
                 <!--end col-md-6-->
                 <div class="col-md-6">
                     <a href="product.php" class="oil-col right-col">
-                        <img data-src="assets/img/right-stamp.png" alt="stamp">
+                        <img data-src="assets/img/left-stamp.png" alt="stamp">
                     </a>
                 </div>
                 <!--end col-md-6-->

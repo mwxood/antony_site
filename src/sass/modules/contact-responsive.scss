@@ -3,6 +3,10 @@
         .contact-form {
             margin-bottom: 100px;
         }
+
+        .map iframe {
+            height: 350px;
+        }
     }
    
 }
@@ -21,9 +25,7 @@
         .address-title {
             padding: 20px 0 20px 20px;
         }
-        .map iframe {
-            height: 400px;
-        }
+
         .contact-info {
             flex-wrap: wrap;
             .address-col {

@@ -1,4 +1,15 @@
+@media (max-width: 1999px) {
+    .news-image {
+        img {
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+}
 @media (max-width: 600px) {
+    .news-inner {
+        margin-bottom: 50px;
+    }
     .news-section.inner-section {
         padding-top: 10px;
         .news-image {

@@ -11,7 +11,7 @@
                 </span>
                 <span class="footer-email">
                     <a href="tel:044666966">Тел. (044) 666966</a>
-                    <a href="mailto:antoniy@merkanto.com">antoniy@merkanto.com</a>
+                    <a href="mailto:office@antoniy.com">office@antoniy.com</a>
                 </span>
             </div><!--end footer-left-col-->
             <div class="footer-right-col">

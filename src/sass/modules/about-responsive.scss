@@ -84,16 +84,21 @@
 
 }
 @media (max-width: 1300px) {
+  .about-index-section {
+    padding-top: 0;
+  }
+  
   .card-holder {
     margin-top: 0;
     .card-info-holder {
-      background: #ccc;
-      max-height: inherit;
-      min-height: 725px;
-      padding-top: 0;
+      min-height: 830px;
+      .card-year-holder {
+        margin-top: 20px
+      }
     }
+
   .button-holder {
-    bottom: 0;
+    bottom: 168px;
     right: 0;
     padding: 0;
   }
@@ -120,6 +125,25 @@
 }
 
 @media (max-width: 1200px) {
+  .card-holder {
+    margin-top: 0;
+    .card-info-holder {
+      background: #ccc;
+      max-height: inherit;
+      min-height: inherit;
+      padding-top: 0;
+      padding-bottom: 150px;
+      .card-year-holder {
+        margin-top: 60px;
+      }
+    }
+
+    .button-holder {
+      bottom: 0;
+      right: 0;
+      padding: 0;
+    }
+  }
   .about-index-section {
     padding-top: 0;
     min-height: auto;
@@ -135,7 +159,7 @@
       margin-left: 0;
       h2 {
         font-size: 60px;
-        padding: 0 20px;
+        padding: 0 20px 20px;
       }
     }
 
@@ -160,6 +184,19 @@
     .history-title h3 {
       font-size: 60px;
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .tab-content .tab-nav {
+    margin-bottom: 22px;
+  }
+  .tabs h4{
+    margin-bottom: 22px;
+  }
+
+  .history-holder {
+    min-height: 1208px;
   }
 }
 
@@ -226,6 +263,16 @@
       .history-title h3 {
         font-size: 50px;
       }
+    }
+  }
+}
+
+
+@media (max-width: 890px) {
+  .tabs {
+    .col-md-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
     }
   }
 }
