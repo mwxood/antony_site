@@ -158,6 +158,7 @@
                    
 
                     <div class="table-wrap">
+                        
                         <table class="prod-table">
                             <thead>
                                 <tr>
@@ -225,7 +226,7 @@
         <div class="category-filters">
             <div class="custom-container">
                 <div class="filters-content">
-                    <ul class="filters-nav">
+                    <ul class="filters-nav filter-tab-nav">
                         <li><a class="active" href="#">Зелени масили</a></li>
                         <li><a href="#">Черни маслини</a></li>
                         <li><a href="#">Специални продукти</a></li>

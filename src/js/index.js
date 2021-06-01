@@ -8,7 +8,7 @@ import customSelect from "./modules/customSelect";
 import topSlider from "./modules/topSlider";
 import aboutEffects from "./modules/aboutEffects";
 import lazyLoad from "./modules/lazyLoad";
-import formValidation from "./modules/formValidation";product
+import formValidation from "./modules/formValidation";
 import product from "./modules/product";
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     tabs({
-        tabsNav: '.filters-nav a',
+        tabsNav: '.filter-tab-nav a',
         tabsContent: '.tab-scroll',
         activeNavClass: 'active',
         activeTabClass: 'active-tab'
