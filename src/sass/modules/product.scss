@@ -324,3 +324,106 @@
     display: block;
   }
 }
+
+.product-new-heading { 
+  @extend .flex-container;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 53px;
+  margin-bottom: 40px;
+  .breadcrumbs {
+    width: auto;
+  }
+  h1 {
+    width: 100%;
+    text-align: center;
+    color: #464c2d;
+    font-size: 49px;
+  }
+}
+
+.product-new-image-holder {
+  @extend .flex-container;
+  justify-content: center;
+  max-width: 810px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  margin-bottom: 101px;
+  img {
+    position: relative;
+    z-index: 1;
+  }
+  &:after {
+    content: '';
+    background: url('../img/prod-inner-bg.png') no-repeat;
+    border: 5px solid #bc9c61;
+    display: block;
+    width: 100%;
+    min-height: 288px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.category-new-header {
+  border-top: 1px solid #939598;
+  border-bottom: 1px solid #939598;
+  padding: 19px 0;
+  margin-bottom: 36px;
+
+  .category-new-title {
+    font-size: 23px;
+  }
+}
+
+
+.product-new-about-aslini {
+  max-width: 911px;
+  margin: auto;
+  margin-bottom: 17px;
+  .product-title {
+    width: 100%;
+    @extend .flex-container;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .title-desc {
+    width: 100%;
+    display: block;
+    text-align: center !important;
+    max-width: inherit !important;
+  }
+  h2 {
+    @extend .flex-container;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 820px) {
+  .product-new-image-holder:after {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .product-new-heading {
+    margin-top: 0;
+     h1 {
+      font-size: 35px;
+       line-height: 1;
+     }
+  }
+
+  
+}
+
+@media (max-width: 600px) {
+  .product-new-image-holder {
+    margin-bottom: 30px;
+  }
+  .product-new-heading h1 {
+    font-size: 27px
+  }
+}
