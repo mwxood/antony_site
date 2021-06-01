@@ -8,7 +8,8 @@ import customSelect from "./modules/customSelect";
 import topSlider from "./modules/topSlider";
 import aboutEffects from "./modules/aboutEffects";
 import lazyLoad from "./modules/lazyLoad";
-import formValidation from "./modules/formValidation";
+import formValidation from "./modules/formValidation";product
+import product from "./modules/product";
 
 document.addEventListener('DOMContentLoaded', function () {
     navigation();
@@ -25,10 +26,18 @@ document.addEventListener('DOMContentLoaded', function () {
         activeNavClass: 'active',
         activeTabClass: 'active-tab'
     });
+
+    tabs({
+        tabsNav: '.filters-nav a',
+        tabsContent: '.tab-scroll',
+        activeNavClass: 'active',
+        activeTabClass: 'active-tab'
+    });
     gallery({
         gallerySelectors: '.gallery-img'
         // isNav: true // default value
     });
+    product();
 });
 
 

@@ -30,14 +30,14 @@
                     </ul>
 
                     <div class="filters">
-                        <form action="https://www.google.bg/" class="category-form">
+                    <form action="https://www.google.bg/" class="category-form">
                             <span class="filter-title">Вид разфасовка:</span>
                             <div class="custom-select">
                                 <label>
-                                    <select name="brands" class="filter" id="brand">
+                                    <select name="brands" class="filter filters" id="brand">
                                         <option selected value="0">Марки</option>
-                                        <option value="Бенетон">Черна</option>
-                                        <option value="Детелина">Зелена</option>
+                                        <option value="Черна">Черна</option>
+                                        <option value="Зелена">Зелена</option>
                                     </select>
                                 </label>
                             </div>
@@ -193,7 +193,7 @@
                 <!--end row-->
 
                 <ul class="pagination">
-                    <li><a class="active" href="#">1</a></li>
+                    <li class="active"><a  href="#">1</a></li>
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                 </ul>

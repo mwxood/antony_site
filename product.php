@@ -96,7 +96,6 @@
 
                             </tbody>
                         </table>
-                        
                     </div>
                 </div>
                 <!--end table-description-->
@@ -232,21 +231,7 @@
                         <li><a href="#">Специални продукти</a></li>
                     </ul>
 
-                    <div class="filters">
-                        <form action="https://www.google.bg/" class="category-form">
-                            <span class="filter-title">Вид разфасовка:</span>
-                            <div class="custom-select">
-                                <label>
-                                    <select name="brands" class="filter" id="brand">
-                                        <option selected value="0">Марки</option>
-                                        <option value="Бенетон">Черна</option>
-                                        <option value="Детелина">Зелена</option>
-                                    </select>
-                                </label>
-                            </div>
-                            <!--end custom-select-->
-                        </form>
-                    </div>
+                    
                 </div>
                 <!--end filters-content-->
             </div>
@@ -254,8 +239,11 @@
         </div>
         <!--end category-filters-->
 
+        
+        <div class="tab-scroll active-tab">
 
         <div class="scroll-product">
+        
             <div class="prod-scroll">
                 <a href="product.php" class="prod">
                     <span class="prod-image">
@@ -484,6 +472,12 @@
             </div>
             <!--end prod-scroll-->
         </div>
+
+        </div>
+
+        <div class="tab-scroll">2</div>
+        <div class="tab-scroll">3</div>
+
 
         <div class="company-info-container">
             <span class="company-logo">
