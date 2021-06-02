@@ -251,7 +251,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -263,7 +263,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -275,7 +275,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -287,7 +287,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -299,7 +299,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -311,7 +311,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -323,7 +323,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -335,7 +335,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -347,7 +347,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини без костилка
                     </span>
                 </a>
             </div>
@@ -359,7 +359,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -371,7 +371,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -383,7 +383,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -395,7 +395,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -407,7 +407,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -419,7 +419,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -431,7 +431,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -443,7 +443,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -455,7 +455,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>
@@ -467,7 +467,7 @@
                         <img data-src="assets/img/prod.png" alt="Product">
                     </span>
                     <span class="prod-desc">
-                        Черни маслини <br> без костилка
+                        Черни маслини  без костилка
                     </span>
                 </a>
             </div>

@@ -61,7 +61,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -72,7 +72,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -83,7 +83,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -94,52 +94,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
-                            </span>
-                        </a>
-                    </div>
-                    <!--end col-md-3-->
-
-                    <div class="col-sm-6 col-md-3">
-                        <a href="product.php" class="prod">
-                            <span class="prod-image">
-                                <img data-src="assets/img/prod.png" alt="Product">
-                            </span>
-                            <span class="prod-desc">
-                                Черни маслини <br> без костилка
-                            </span>
-                        </a>
-                    </div>
-                    <!--end col-md-3-->
-                    <div class="col-sm-6 col-md-3">
-                        <a href="product.php" class="prod">
-                            <span class="prod-image">
-                                <img data-src="assets/img/prod.png" alt="Product">
-                            </span>
-                            <span class="prod-desc">
-                                Черни маслини <br> без костилка
-                            </span>
-                        </a>
-                    </div>
-                    <!--end col-md-3-->
-                    <div class="col-sm-6 col-md-3">
-                        <a href="product.php" class="prod">
-                            <span class="prod-image">
-                                <img data-src="assets/img/prod.png" alt="Product">
-                            </span>
-                            <span class="prod-desc">
-                                Черни маслини <br> без костилка
-                            </span>
-                        </a>
-                    </div>
-                    <!--end col-md-3-->
-                    <div class="col-sm-6 col-md-3">
-                        <a href="product.php" class="prod">
-                            <span class="prod-image">
-                                <img data-src="assets/img/prod.png" alt="Product">
-                            </span>
-                            <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -151,7 +106,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -162,7 +117,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -173,7 +128,7 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
@@ -184,7 +139,52 @@
                                 <img data-src="assets/img/prod.png" alt="Product">
                             </span>
                             <span class="prod-desc">
-                                Черни маслини <br> без костилка
+                                Черни маслини  без костилка
+                            </span>
+                        </a>
+                    </div>
+                    <!--end col-md-3-->
+
+                    <div class="col-sm-6 col-md-3">
+                        <a href="product.php" class="prod">
+                            <span class="prod-image">
+                                <img data-src="assets/img/prod.png" alt="Product">
+                            </span>
+                            <span class="prod-desc">
+                                Черни маслини  без костилка
+                            </span>
+                        </a>
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-sm-6 col-md-3">
+                        <a href="product.php" class="prod">
+                            <span class="prod-image">
+                                <img data-src="assets/img/prod.png" alt="Product">
+                            </span>
+                            <span class="prod-desc">
+                                Черни маслини  без костилка
+                            </span>
+                        </a>
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-sm-6 col-md-3">
+                        <a href="product.php" class="prod">
+                            <span class="prod-image">
+                                <img data-src="assets/img/prod.png" alt="Product">
+                            </span>
+                            <span class="prod-desc">
+                                Черни маслини  без костилка
+                            </span>
+                        </a>
+                    </div>
+                    <!--end col-md-3-->
+                    <div class="col-sm-6 col-md-3">
+                        <a href="product.php" class="prod">
+                            <span class="prod-image">
+                                <img data-src="assets/img/prod.png" alt="Product">
+                            </span>
+                            <span class="prod-desc">
+                                Черни маслини  без костилка
                             </span>
                         </a>
                     </div>
